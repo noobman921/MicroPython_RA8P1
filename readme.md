@@ -12,7 +12,7 @@
 /docs 使用文档
 /mpy_ra8p1.zip 完整项目，可用e2studio导入
 /include.xml 头文件配置文件，手动添加使用
-/MicroPython_RA_FSP 软件包，手动添加使用
+/MicroPython 软件包，手动添加使用
 
 ## 联系方式
 
