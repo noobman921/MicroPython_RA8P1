@@ -1,0 +1,8 @@
+Q(init)
+Q(deinit)
+Q(read)
+Q(readinto)
+Q(write)
+Q(write_readinto)
+Q(MSB)
+Q(LSB)

@@ -146,8 +146,6 @@ Q(FileIO)
 
 Q(FileIO)
 
-Q(Flash)
-
 Q(GeneratorExit)
 
 Q(GeneratorExit)
@@ -521,6 +519,8 @@ Q(__mod__)
 Q(__module__)
 
 Q(__mul__)
+
+Q(__name__)
 
 Q(__name__)
 
@@ -1122,6 +1122,8 @@ Q(init)
 
 Q(init)
 
+Q(init)
+
 Q(input)
 
 Q(insert)
@@ -1141,8 +1143,6 @@ Q(invert)
 Q(io)
 
 Q(io)
-
-Q(ioctl)
 
 Q(ioctl)
 
@@ -1209,6 +1209,10 @@ Q(key)
 Q(keys)
 
 Q(keys)
+
+Q(led)
+
+Q(led)
 
 Q(len)
 
@@ -1324,6 +1328,10 @@ Q(off)
 
 Q(off)
 
+Q(off)
+
+Q(on)
+
 Q(on)
 
 Q(on)
@@ -1429,8 +1437,6 @@ Q(read)
 Q(read)
 
 Q(read)
-
-Q(readblocks)
 
 Q(readblocks)
 
@@ -1755,8 +1761,6 @@ Q(write)
 Q(write)
 
 Q(write_readinto)
-
-Q(writeblocks)
 
 Q(writeblocks)
 

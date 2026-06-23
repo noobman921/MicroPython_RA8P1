@@ -48,6 +48,10 @@ extern const struct _mp_obj_module_t mp_module_gc;
 #undef MODULE_DEF_GC
 #define MODULE_DEF_GC { MP_ROM_QSTR(MP_QSTR_gc), MP_ROM_PTR(&mp_module_gc) },
 
+extern const struct _mp_obj_module_t mp_module_led;
+#undef MODULE_DEF_LED
+#define MODULE_DEF_LED { MP_ROM_QSTR(MP_QSTR_led), MP_ROM_PTR(&mp_module_led) },
+
 extern const struct _mp_obj_module_t mp_module_micropython;
 #undef MODULE_DEF_MICROPYTHON
 #define MODULE_DEF_MICROPYTHON { MP_ROM_QSTR(MP_QSTR_micropython), MP_ROM_PTR(&mp_module_micropython) },
@@ -64,6 +68,7 @@ extern const struct _mp_obj_module_t mp_module_uctypes;
 #define MICROPY_REGISTERED_MODULES \
     MODULE_DEF_BUILTINS \
     MODULE_DEF_GC \
+    MODULE_DEF_LED \
     MODULE_DEF_MICROPYTHON \
     MODULE_DEF_SYS \
     MODULE_DEF_UCTYPES \

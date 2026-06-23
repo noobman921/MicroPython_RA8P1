@@ -103,9 +103,9 @@ SOURCE_GROUPS = [
 
     # ──────────── src/ 应用入口 ────────────
     {
-        "enabled": False,
-        "label": "src/ 应用入口",
-        "scan_dirs": ["src"],
+        "enabled": True,
+        "label": "user/ 应用入口",
+        "scan_dirs": ["user"],
         "extra_files": [],
     },
 

@@ -1,7 +1,7 @@
 # 0 "<stdin>"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 1
+# 1 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 1
 
 
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h" 1 3 4
@@ -201,16 +201,16 @@ typedef __uint_least64_t uint_least64_t;
   typedef long long int int_fast64_t;
   typedef long long unsigned int uint_fast64_t;
 # 10 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h" 2 3 4
-# 4 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h" 1
+# 4 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/hal_data.h" 1
 
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 1
-# 15 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h" 1
-# 13 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 1
+# 15 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h" 1
+# 13 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h"
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/assert.h" 1 3
 # 9 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/assert.h" 3
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/_ansi.h" 1 3
@@ -230,17 +230,17 @@ void __assert (const char *, int, const char *)
      __attribute__ ((__noreturn__));
 void __assert_func (const char *, int, const char *, const char *)
      __attribute__ ((__noreturn__));
-# 14 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h" 2
+# 14 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h" 2
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_version.h" 1
-# 15 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_version.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 1
-# 16 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_version.h" 2
-# 53 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_version.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_version.h" 1
+# 15 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_version.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 1
+# 16 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_version.h" 2
+# 53 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_version.h"
 
-# 53 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_version.h"
+# 53 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_version.h"
 typedef union st_fsp_pack_version
 {
 
@@ -257,10 +257,10 @@ typedef union st_fsp_pack_version
         uint8_t major;
     } version_id_b;
 } fsp_pack_version_t;
-# 18 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h" 2
-# 50 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h"
+# 18 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h" 2
+# 50 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h"
 
-# 61 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h"
+# 61 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h"
 typedef enum e_fsp_err
 {
     FSP_SUCCESS = 0,
@@ -574,35 +574,35 @@ typedef enum e_fsp_err
 
     FSP_ERR_COMMS_BUS_NOT_OPEN = 0x40000,
 } fsp_err_t;
-# 382 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h"
+# 382 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h"
 
-# 16 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-
-
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 1
+# 16 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
 
 
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 1
 
 
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/bsp_clock_cfg.h" 1
-# 9 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 1
+
+
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/bsp_clock_cfg.h" 1
+# 9 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 1
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_pn_cfg.h" 1
-# 5 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_cfg.h" 1
-# 6 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h" 1
-# 22 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/r_lpm_device_types.h" 1
-# 22 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/r_lpm_device_types.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_pn_cfg.h" 1
+# 5 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_device_cfg.h" 1
+# 6 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h" 1
+# 22 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/r_lpm_device_types.h" 1
+# 22 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/r_lpm_device_types.h"
 
-# 35 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/r_lpm_device_types.h"
+# 35 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/r_lpm_device_types.h"
 typedef enum e_lpm_standby_wake_source
 {
     LPM_STANDBY_WAKE_SOURCE_IRQ0 = 0x00000001ULL,
@@ -671,8 +671,8 @@ typedef enum e_lpm_snooze_cancel
 
 
 
-# 23 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h" 2
-# 48 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h"
+# 23 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h" 2
+# 48 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h"
 typedef enum e_cgc_sys_clock_div
 {
     CGC_SYS_CLOCK_DIV_1 = 0,
@@ -799,7 +799,7 @@ typedef enum e_ioport_peripheral
 
 
     IOPORT_PERIPHERAL_LCDC = (0x0DUL << (24)),
-# 185 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h"
+# 185 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_override.h"
     IOPORT_PERIPHERAL_DE_SCI0_2_4_6_8 = (0x0DUL << (24)),
 
 
@@ -904,11 +904,11 @@ typedef enum
     LVD_THRESHOLD_MONITOR_LEVEL_1_71V = 0x0FUL,
     LVD_THRESHOLD_NOT_AVAILABLE = 0xFFUL,
 } lvd_threshold_t;
-# 7 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h" 1
-# 26 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_elc.h" 1
-# 36 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_elc.h"
+# 7 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h" 1
+# 26 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_elc.h" 1
+# 36 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_elc.h"
 typedef enum e_elc_event_ra8p1
 {
     ELC_EVENT_NONE = (0x0),
@@ -1412,7 +1412,7 @@ typedef enum e_elc_event_ra8p1
     ELC_EVENT_VIN_ERR = (0x396),
     ELC_EVENT_CEU_CEUI = (0x397)
 } elc_event_t;
-# 547 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_elc.h"
+# 547 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_elc.h"
 typedef enum e_elc_peripheral
 {
     ELC_PERIPHERAL_GPT_A = (0),
@@ -1442,17 +1442,17 @@ typedef enum e_elc_peripheral
     ELC_PERIPHERAL_GPTP0 = (31),
     ELC_PERIPHERAL_GPTP1 = (32)
 } elc_peripheral_t;
-# 27 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_feature.h" 1
-# 20 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_feature.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_peripheral.h" 1
-# 21 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_feature.h" 2
-# 28 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h" 2
-# 36 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h"
+# 27 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_feature.h" 1
+# 20 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_feature.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_peripheral.h" 1
+# 21 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_feature.h" 2
+# 28 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h" 2
+# 36 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/bsp_mcu_info.h"
 typedef elc_event_t bsp_interrupt_event_t;
-# 8 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/r_adc_device_types.h" 1
-# 35 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/ra8p1/r_adc_device_types.h"
+# 8 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/r_adc_device_types.h" 1
+# 35 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/ra8p1/r_adc_device_types.h"
 typedef enum e_adc_b_clock_source
 {
     ADC_B_CLOCK_SOURCE_ADC = 0,
@@ -1591,11 +1591,11 @@ typedef enum e_adc_b_channel_mask
     ADC_B_CHANNEL_MASK_DIAGNOSIS_SH5 = (1ULL << ((32U) + 21)),
     ADC_B_CHANNEL_MASK_DIAGNOSIS_SH6 = (1ULL << ((32U) + 22)),
 } adc_b_channel_mask_t;
-# 9 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
-# 10 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_mcu_ofs_cfg.h" 1
-# 11 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/board_cfg.h" 1
+# 9 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" 2
+# 10 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_mcu_ofs_cfg.h" 1
+# 11 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/board_cfg.h" 1
 
 
 
@@ -1604,9 +1604,9 @@ typedef enum e_adc_b_channel_mask
 
 
 void bsp_init(void *p_args);
-# 12 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/vector_data.h" 1
-# 12 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/vector_data.h"
+# 12 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/vector_data.h" 1
+# 12 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/vector_data.h"
 void sci_b_uart_rxi_isr(void);
 void sci_b_uart_txi_isr(void);
 void sci_b_uart_tei_isr(void);
@@ -1616,8 +1616,8 @@ void spi_b_rxi_isr(void);
 void spi_b_txi_isr(void);
 void spi_b_tei_isr(void);
 void spi_b_eri_isr(void);
-# 13 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
+# 13 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_cfg.h" 2
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
 
 
 
@@ -1631,8 +1631,8 @@ void spi_b_eri_isr(void);
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_exceptions.h" 1
-# 25 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_exceptions.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_exceptions.h" 1
+# 25 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_exceptions.h"
 typedef enum IRQn
 {
     Reset_IRQn = -15,
@@ -1647,18 +1647,18 @@ typedef enum IRQn
     PendSV_IRQn = -2,
     SysTick_IRQn = -1,
 } IRQn_Type;
-# 33 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
+# 33 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h" 1
-# 28 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h" 1
-# 52 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 1
-# 28 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h" 1
+# 28 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h" 1
+# 52 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 1
+# 28 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h"
        
-# 29 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 29 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/arm_acle.h" 1 3 4
 # 36 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/arm_acle.h" 3 4
@@ -2272,8 +2272,8 @@ __smlawt (int32_t __a, int32_t __b, int32_t __c)
 #pragma GCC push_options
 # 766 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/arm_acle.h" 3 4
 #pragma GCC pop_options
-# 31 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 2 3
-# 72 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 31 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 2 3
+# 72 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wpacked"
 #pragma GCC diagnostic ignored "-Wattributes"
@@ -2303,7 +2303,7 @@ __smlawt (int32_t __a, int32_t __b, int32_t __c)
 #pragma GCC diagnostic ignored "-Wattributes"
   struct __attribute__((packed, aligned(1))) T_UINT32_READ { uint32_t v; };
 #pragma GCC diagnostic pop
-# 173 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 173 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __ISB(void)
 {
   __asm volatile ("isb 0xF":::"memory");
@@ -2330,12 +2330,12 @@ __attribute__((always_inline)) static inline void __DMB(void)
 {
   __asm volatile ("dmb 0xF":::"memory");
 }
-# 207 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 207 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __REV(uint32_t value)
 {
   return __builtin_bswap32(value);
 }
-# 219 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 219 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __REV16(uint32_t value)
 {
   uint32_t result;
@@ -2343,12 +2343,12 @@ __attribute__((always_inline)) static inline uint32_t __REV16(uint32_t value)
   __asm ("rev16 %0, %1" : "=r" (result) : "r" (value) );
   return (result);
 }
-# 234 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 234 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline int16_t __REVSH(int16_t value)
 {
   return (int16_t)__builtin_bswap16(value);
 }
-# 247 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 247 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __ROR(uint32_t op1, uint32_t op2)
 {
   op2 %= 32U;
@@ -2358,32 +2358,32 @@ __attribute__((always_inline)) static inline uint32_t __ROR(uint32_t op1, uint32
   }
   return (op1 >> op2) | (op1 << (32U - op2));
 }
-# 274 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 274 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __RBIT(uint32_t value)
 {
   uint32_t result;
 
 
    __asm ("rbit %0, %1" : "=r" (result) : "r" (value) );
-# 292 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 292 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
   return (result);
 }
-# 302 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 302 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint8_t __CLZ(uint32_t value)
 {
-# 313 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 313 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
   if (value == 0U)
   {
     return 32U;
   }
   return __builtin_clz(value);
 }
-# 399 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 399 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __CLREX(void)
 {
   __asm volatile ("clrex" ::: "memory");
 }
-# 411 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 411 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint8_t __LDREXB(volatile uint8_t *addr)
 {
   uint32_t result;
@@ -2391,7 +2391,7 @@ __attribute__((always_inline)) static inline uint8_t __LDREXB(volatile uint8_t *
   __asm volatile ("ldrexb %0, %1" : "=r" (result) : "Q" (*addr) );
   return ((uint8_t) result);
 }
-# 428 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 428 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __STREXB(uint8_t value, volatile uint8_t *addr)
 {
   uint32_t result;
@@ -2399,7 +2399,7 @@ __attribute__((always_inline)) static inline uint32_t __STREXB(uint8_t value, vo
   __asm volatile ("strexb %0, %2, %1" : "=&r" (result), "=Q" (*addr) : "r" ((uint32_t)value) );
   return (result);
 }
-# 445 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 445 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint16_t __LDREXH(volatile uint16_t *addr)
 {
   uint32_t result;
@@ -2407,7 +2407,7 @@ __attribute__((always_inline)) static inline uint16_t __LDREXH(volatile uint16_t
   __asm volatile ("ldrexh %0, %1" : "=r" (result) : "Q" (*addr) );
   return ((uint16_t)result);
 }
-# 462 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 462 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __STREXH(uint16_t value, volatile uint16_t *addr)
 {
   uint32_t result;
@@ -2415,7 +2415,7 @@ __attribute__((always_inline)) static inline uint32_t __STREXH(uint16_t value, v
   __asm volatile ("strexh %0, %2, %1" : "=&r" (result), "=Q" (*addr) : "r" ((uint32_t)value) );
   return (result);
 }
-# 479 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 479 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __LDREXW(volatile uint32_t *addr)
 {
   uint32_t result;
@@ -2423,7 +2423,7 @@ __attribute__((always_inline)) static inline uint32_t __LDREXW(volatile uint32_t
   __asm volatile ("ldrex %0, %1" : "=r" (result) : "Q" (*addr) );
   return (result);
 }
-# 496 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 496 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __STREXW(uint32_t value, volatile uint32_t *addr)
 {
   uint32_t result;
@@ -2431,7 +2431,7 @@ __attribute__((always_inline)) static inline uint32_t __STREXW(uint32_t value, v
   __asm volatile ("strex %0, %2, %1" : "=&r" (result), "=Q" (*addr) : "r" (value) );
   return (result);
 }
-# 514 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 514 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __RRX(uint32_t value)
 {
   uint32_t result;
@@ -2439,7 +2439,7 @@ __attribute__((always_inline)) static inline uint32_t __RRX(uint32_t value)
   __asm volatile ("rrx %0, %1" : "=r" (result) : "r" (value));
   return (result);
 }
-# 529 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 529 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint8_t __LDRBT(volatile uint8_t *ptr)
 {
   uint32_t result;
@@ -2447,7 +2447,7 @@ __attribute__((always_inline)) static inline uint8_t __LDRBT(volatile uint8_t *p
   __asm volatile ("ldrbt %0, %1" : "=r" (result) : "Q" (*ptr) );
   return ((uint8_t)result);
 }
-# 544 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 544 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint16_t __LDRHT(volatile uint16_t *ptr)
 {
   uint32_t result;
@@ -2455,7 +2455,7 @@ __attribute__((always_inline)) static inline uint16_t __LDRHT(volatile uint16_t 
   __asm volatile ("ldrht %0, %1" : "=r" (result) : "Q" (*ptr) );
   return ((uint16_t)result);
 }
-# 559 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 559 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __LDRT(volatile uint32_t *ptr)
 {
   uint32_t result;
@@ -2463,22 +2463,22 @@ __attribute__((always_inline)) static inline uint32_t __LDRT(volatile uint32_t *
   __asm volatile ("ldrt %0, %1" : "=r" (result) : "Q" (*ptr) );
   return (result);
 }
-# 574 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 574 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __STRBT(uint8_t value, volatile uint8_t *ptr)
 {
   __asm volatile ("strbt %1, %0" : "=Q" (*ptr) : "r" ((uint32_t)value) );
 }
-# 586 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 586 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __STRHT(uint16_t value, volatile uint16_t *ptr)
 {
   __asm volatile ("strht %1, %0" : "=Q" (*ptr) : "r" ((uint32_t)value) );
 }
-# 598 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 598 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __STRT(uint32_t value, volatile uint32_t *ptr)
 {
   __asm volatile ("strt %1, %0" : "=Q" (*ptr) : "r" (value) );
 }
-# 612 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 612 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint8_t __LDAB(volatile uint8_t *ptr)
 {
   uint32_t result;
@@ -2486,7 +2486,7 @@ __attribute__((always_inline)) static inline uint8_t __LDAB(volatile uint8_t *pt
   __asm volatile ("ldab %0, %1" : "=r" (result) : "Q" (*ptr) : "memory" );
   return ((uint8_t)result);
 }
-# 627 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 627 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint16_t __LDAH(volatile uint16_t *ptr)
 {
   uint32_t result;
@@ -2494,7 +2494,7 @@ __attribute__((always_inline)) static inline uint16_t __LDAH(volatile uint16_t *
   __asm volatile ("ldah %0, %1" : "=r" (result) : "Q" (*ptr) : "memory" );
   return ((uint16_t)result);
 }
-# 642 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 642 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __LDA(volatile uint32_t *ptr)
 {
   uint32_t result;
@@ -2502,22 +2502,22 @@ __attribute__((always_inline)) static inline uint32_t __LDA(volatile uint32_t *p
   __asm volatile ("lda %0, %1" : "=r" (result) : "Q" (*ptr) : "memory" );
   return (result);
 }
-# 657 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 657 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __STLB(uint8_t value, volatile uint8_t *ptr)
 {
   __asm volatile ("stlb %1, %0" : "=Q" (*ptr) : "r" ((uint32_t)value) : "memory" );
 }
-# 669 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 669 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __STLH(uint16_t value, volatile uint16_t *ptr)
 {
   __asm volatile ("stlh %1, %0" : "=Q" (*ptr) : "r" ((uint32_t)value) : "memory" );
 }
-# 681 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 681 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __STL(uint32_t value, volatile uint32_t *ptr)
 {
   __asm volatile ("stl %1, %0" : "=Q" (*ptr) : "r" ((uint32_t)value) : "memory" );
 }
-# 693 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 693 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint8_t __LDAEXB(volatile uint8_t *ptr)
 {
   uint32_t result;
@@ -2525,7 +2525,7 @@ __attribute__((always_inline)) static inline uint8_t __LDAEXB(volatile uint8_t *
   __asm volatile ("ldaexb %0, %1" : "=r" (result) : "Q" (*ptr) : "memory" );
   return ((uint8_t)result);
 }
-# 708 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 708 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint16_t __LDAEXH(volatile uint16_t *ptr)
 {
   uint32_t result;
@@ -2533,7 +2533,7 @@ __attribute__((always_inline)) static inline uint16_t __LDAEXH(volatile uint16_t
   __asm volatile ("ldaexh %0, %1" : "=r" (result) : "Q" (*ptr) : "memory" );
   return ((uint16_t)result);
 }
-# 723 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 723 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __LDAEX(volatile uint32_t *ptr)
 {
   uint32_t result;
@@ -2541,7 +2541,7 @@ __attribute__((always_inline)) static inline uint32_t __LDAEX(volatile uint32_t 
   __asm volatile ("ldaex %0, %1" : "=r" (result) : "Q" (*ptr) : "memory" );
   return (result);
 }
-# 740 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 740 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __STLEXB(uint8_t value, volatile uint8_t *ptr)
 {
   uint32_t result;
@@ -2549,7 +2549,7 @@ __attribute__((always_inline)) static inline uint32_t __STLEXB(uint8_t value, vo
   __asm volatile ("stlexb %0, %2, %1" : "=&r" (result), "=Q" (*ptr) : "r" ((uint32_t)value) : "memory" );
   return (result);
 }
-# 757 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 757 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __STLEXH(uint16_t value, volatile uint16_t *ptr)
 {
   uint32_t result;
@@ -2557,7 +2557,7 @@ __attribute__((always_inline)) static inline uint32_t __STLEXH(uint16_t value, v
   __asm volatile ("stlexh %0, %2, %1" : "=&r" (result), "=Q" (*ptr) : "r" ((uint32_t)value) : "memory" );
   return (result);
 }
-# 774 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 774 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __STLEX(uint32_t value, volatile uint32_t *ptr)
 {
   uint32_t result;
@@ -2565,7 +2565,7 @@ __attribute__((always_inline)) static inline uint32_t __STLEX(uint32_t value, vo
   __asm volatile ("stlex %0, %2, %1" : "=&r" (result), "=Q" (*ptr) : "r" ((uint32_t)value) : "memory" );
   return (result);
 }
-# 798 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 798 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline void __enable_irq(void)
 {
   __asm volatile ("cpsie i" : : : "memory");
@@ -2603,7 +2603,7 @@ __attribute__((always_inline)) static inline void __disable_irq(void)
   {
     __asm volatile ("cpsid f" : : : "memory");
   }
-# 843 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 843 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
 __attribute__((always_inline)) static inline uint32_t __get_FPSCR(void)
 {
 
@@ -2627,7 +2627,7 @@ __attribute__((always_inline)) static inline void __set_FPSCR(uint32_t fpscr)
 
 
 }
-# 957 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 957 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
   __attribute__((always_inline)) static inline uint32_t __SXTB16_RORn(uint32_t op1, uint32_t rotate)
   {
       uint32_t result;
@@ -2663,9 +2663,9 @@ __attribute__((always_inline)) static inline void __set_FPSCR(uint32_t fpscr)
     __asm volatile ("smmla %0, %1, %2, %3" : "=r" (result): "r" (op1), "r" (op2), "r" (op3) );
     return (result);
   }
-# 1001 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 1 3
-# 42 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 1001 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 3
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 1 3
+# 42 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline __attribute__((__noreturn__)) void __cmsis_start(void)
 {
   extern void _start(void) __attribute__((__noreturn__));
@@ -2700,7 +2700,7 @@ __attribute__((always_inline)) static inline __attribute__((__noreturn__)) void 
 
   _start();
 }
-# 127 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 127 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline uint32_t __get_CONTROL(void)
 {
   uint32_t result;
@@ -2708,13 +2708,13 @@ __attribute__((always_inline)) static inline uint32_t __get_CONTROL(void)
   __asm volatile ("MRS %0, control" : "=r" (result) );
   return (result);
 }
-# 157 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 157 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_CONTROL(uint32_t control)
 {
   __asm volatile ("MSR control, %0" : : "r" (control) : "memory");
   __ISB();
 }
-# 183 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 183 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline uint32_t __get_IPSR(void)
 {
   uint32_t result;
@@ -2764,12 +2764,12 @@ __attribute__((always_inline)) static inline uint32_t __get_PSP(void)
   __asm volatile ("MRS %0, psp" : "=r" (result) );
   return (result);
 }
-# 255 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 255 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_PSP(uint32_t topOfProcStack)
 {
   __asm volatile ("MSR psp, %0" : : "r" (topOfProcStack) : );
 }
-# 279 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 279 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline uint32_t __get_MSP(void)
 {
   uint32_t result;
@@ -2777,12 +2777,12 @@ __attribute__((always_inline)) static inline uint32_t __get_MSP(void)
   __asm volatile ("MRS %0, msp" : "=r" (result) );
   return (result);
 }
-# 309 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 309 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_MSP(uint32_t topOfMainStack)
 {
   __asm volatile ("MSR msp, %0" : : "r" (topOfMainStack) : );
 }
-# 360 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 360 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline uint32_t __get_PRIMASK(void)
 {
   uint32_t result;
@@ -2790,12 +2790,12 @@ __attribute__((always_inline)) static inline uint32_t __get_PRIMASK(void)
   __asm volatile ("MRS %0, primask" : "=r" (result) );
   return (result);
 }
-# 390 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 390 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_PRIMASK(uint32_t priMask)
 {
   __asm volatile ("MSR primask, %0" : : "r" (priMask) : "memory");
 }
-# 415 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 415 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline uint32_t __get_BASEPRI(void)
 {
   uint32_t result;
@@ -2803,12 +2803,12 @@ __attribute__((always_inline)) static inline uint32_t __get_BASEPRI(void)
   __asm volatile ("MRS %0, basepri" : "=r" (result) );
   return (result);
 }
-# 445 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 445 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_BASEPRI(uint32_t basePri)
 {
   __asm volatile ("MSR basepri, %0" : : "r" (basePri) : "memory");
 }
-# 470 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 470 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_BASEPRI_MAX(uint32_t basePri)
 {
   __asm volatile ("MSR basepri_max, %0" : : "r" (basePri) : "memory");
@@ -2827,12 +2827,12 @@ __attribute__((always_inline)) static inline uint32_t __get_FAULTMASK(void)
   __asm volatile ("MRS %0, faultmask" : "=r" (result) );
   return (result);
 }
-# 511 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 511 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_FAULTMASK(uint32_t faultMask)
 {
   __asm volatile ("MSR faultmask, %0" : : "r" (faultMask) : "memory");
 }
-# 542 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 542 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline uint32_t __get_PSPLIM(void)
 {
 
@@ -2846,7 +2846,7 @@ __attribute__((always_inline)) static inline uint32_t __get_PSPLIM(void)
   return (result);
 
 }
-# 589 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 589 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_PSPLIM(uint32_t ProcStackPtrLimit)
 {
 
@@ -2858,7 +2858,7 @@ __attribute__((always_inline)) static inline void __set_PSPLIM(uint32_t ProcStac
   __asm volatile ("MSR psplim, %0" : : "r" (ProcStackPtrLimit));
 
 }
-# 632 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 632 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline uint32_t __get_MSPLIM(void)
 {
 
@@ -2872,7 +2872,7 @@ __attribute__((always_inline)) static inline uint32_t __get_MSPLIM(void)
   return (result);
 
 }
-# 679 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
+# 679 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h" 3
 __attribute__((always_inline)) static inline void __set_MSPLIM(uint32_t MainStackPtrLimit)
 {
 
@@ -2884,22 +2884,22 @@ __attribute__((always_inline)) static inline void __set_MSPLIM(uint32_t MainStac
   __asm volatile ("MSR msplim, %0" : : "r" (MainStackPtrLimit));
 
 }
-# 1002 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 2 3
-# 53 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h" 2
-# 29 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h" 2
-# 117 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h" 1
-# 55 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 1
-# 28 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1002 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_gcc.h" 2 3
+# 53 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h" 2
+# 29 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h" 2
+# 117 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h" 1
+# 55 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 1
+# 28 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 #pragma GCC diagnostic ignored "-Wpedantic"
-# 63 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_version.h" 1
-# 64 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
-# 201 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h" 1
-# 202 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
-# 348 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 63 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_version.h" 1
+# 64 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
+# 201 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/cmsis_compiler.h" 1
+# 202 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
+# 348 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef union
 {
   struct
@@ -2915,7 +2915,7 @@ typedef union
   } b;
   uint32_t w;
 } APSR_Type;
-# 387 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 387 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef union
 {
   struct
@@ -2925,7 +2925,7 @@ typedef union
   } b;
   uint32_t w;
 } IPSR_Type;
-# 405 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 405 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef union
 {
   struct
@@ -2946,7 +2946,7 @@ typedef union
   } b;
   uint32_t w;
 } xPSR_Type;
-# 461 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 461 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef union
 {
   struct
@@ -2963,7 +2963,7 @@ typedef union
   } b;
   uint32_t w;
 } CONTROL_Type;
-# 516 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 516 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t ISER[16U];
@@ -2982,7 +2982,7 @@ typedef struct
         uint32_t RESERVED6[580U];
   volatile uint32_t STIR;
 } NVIC_Type;
-# 552 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 552 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile const uint32_t CPUID;
@@ -3033,7 +3033,7 @@ typedef struct
   volatile uint32_t DCCISW;
   volatile uint32_t BPIALL;
 } SCB_Type;
-# 1039 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1039 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
         uint32_t RESERVED0[1U];
@@ -3041,7 +3041,7 @@ typedef struct
   volatile uint32_t ACTLR;
   volatile uint32_t CPPWR;
 } ICB_Type;
-# 1086 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1086 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t CTRL;
@@ -3049,7 +3049,7 @@ typedef struct
   volatile uint32_t VAL;
   volatile const uint32_t CALIB;
 } SysTick_Type;
-# 1138 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1138 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile union
@@ -3075,7 +3075,7 @@ typedef struct
         uint32_t RESERVED7[3U];
   volatile const uint32_t DEVTYPE;
 } ITM_Type;
-# 1237 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1237 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t CTRL;
@@ -3122,7 +3122,7 @@ typedef struct
         uint32_t RESERVED15[3U];
   volatile const uint32_t DEVTYPE;
 } DWT_Type;
-# 1391 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1391 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t MSCR;
@@ -3142,13 +3142,13 @@ typedef struct
         uint32_t RESERVED5[2U];
   volatile uint32_t DTGU_LUT[16U];
 } MemSysCtl_Type;
-# 1511 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1511 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t CPDLPSTATE;
   volatile uint32_t DPDLPSTATE;
 } PwrModCtl_Type;
-# 1544 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1544 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t EWIC_CR;
@@ -3164,7 +3164,7 @@ typedef struct
         uint32_t RESERVED2[112U];
   volatile const uint32_t EWIC_PSR;
 } EWIC_Type;
-# 1623 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1623 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t EVENTSPR;
@@ -3172,7 +3172,7 @@ typedef struct
   volatile const uint32_t EVENTMASKA;
   volatile const uint32_t EVENTMASKn[15];
 } EWIC_ISA_Type;
-# 1668 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1668 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t IEBR0;
@@ -3185,13 +3185,13 @@ typedef struct
         uint32_t RESERVED2[1U];
   volatile uint32_t TEBR1;
 } ErrBnk_Type;
-# 1808 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1808 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t CFGINFOSEL;
   volatile const uint32_t CFGINFORD;
 } PrcCfgInf_Type;
-# 1831 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1831 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile const uint32_t STLNVICPENDOR;
@@ -3206,7 +3206,7 @@ typedef struct
   volatile uint32_t STLSTBSLOTSR;
   volatile uint32_t STLLFDENTRYSR;
 } STL_Type;
-# 1943 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1943 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile const uint32_t SSPSR;
@@ -3234,7 +3234,7 @@ typedef struct
   volatile const uint32_t DEVID;
   volatile const uint32_t DEVTYPE;
 } TPIU_Type;
-# 2129 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 2129 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t EVCNTR[8];
@@ -3271,7 +3271,7 @@ typedef struct
         uint32_t RESERVED12[3];
   volatile uint32_t DEVTYPE;
 } PMU_Type;
-# 2925 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 2925 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile const uint32_t TYPE;
@@ -3294,7 +3294,7 @@ typedef struct
   };
   };
 } MPU_Type;
-# 3127 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3127 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
         uint32_t RESERVED0[1U];
@@ -3305,7 +3305,7 @@ typedef struct
   volatile const uint32_t MVFR1;
   volatile const uint32_t MVFR2;
 } FPU_Type;
-# 3268 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3268 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t DHCSR;
@@ -3316,7 +3316,7 @@ typedef struct
   volatile uint32_t DAUTHCTRL;
   volatile uint32_t DSCSR;
 } DCB_Type;
-# 3458 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3458 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
         uint32_t RESERVED0[2U];
@@ -3325,7 +3325,7 @@ typedef struct
         uint32_t RESERVED1[3U];
   volatile const uint32_t DDEVTYPE;
 } DIB_Type;
-# 3643 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3643 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 typedef struct
 {
   volatile uint32_t DHCSR;
@@ -3336,11 +3336,11 @@ typedef struct
   volatile uint32_t DAUTHCTRL;
   volatile uint32_t DSCSR;
 } CoreDebug_Type;
-# 3898 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3898 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 3898 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 3898 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 3898 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3898 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void __NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
 {
   uint32_t reg_value;
@@ -3361,40 +3361,40 @@ static inline
 
 
 
-# 3917 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 3917 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 3917 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3917 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t __NVIC_GetPriorityGrouping(void)
 {
   return ((uint32_t)((((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->AIRCR & (7UL << 8U)) >> 8U));
 }
-# 3929 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3929 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 3929 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 3929 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 3929 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3929 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void __NVIC_EnableIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
     
-# 3933 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 3933 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
    __asm volatile("":::"memory")
-# 3933 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3933 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                        ;
     ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ISER[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
     
-# 3935 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 3935 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
    __asm volatile("":::"memory")
-# 3935 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3935 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                        ;
   }
 }
-# 3948 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3948 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 3948 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 3948 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 3948 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3948 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t __NVIC_GetEnableIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
@@ -3406,11 +3406,11 @@ static inline
     return(0U);
   }
 }
-# 3967 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3967 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 3967 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 3967 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 3967 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3967 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void __NVIC_DisableIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
@@ -3420,11 +3420,11 @@ static inline
     __ISB();
   }
 }
-# 3986 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3986 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 3986 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 3986 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 3986 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 3986 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t __NVIC_GetPendingIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
@@ -3436,11 +3436,11 @@ static inline
     return(0U);
   }
 }
-# 4005 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4005 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4005 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4005 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4005 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4005 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void __NVIC_SetPendingIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
@@ -3448,11 +3448,11 @@ static inline
     ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ISPR[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
   }
 }
-# 4020 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4020 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4020 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4020 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4020 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4020 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
@@ -3460,11 +3460,11 @@ static inline
     ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ICPR[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
   }
 }
-# 4037 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4037 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4037 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4037 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4037 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4037 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t __NVIC_GetActive(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
@@ -3476,11 +3476,11 @@ static inline
     return(0U);
   }
 }
-# 4126 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4126 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4126 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4126 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4126 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4126 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
 {
   if ((int32_t)(IRQn) >= 0)
@@ -3492,11 +3492,11 @@ static inline
     ((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->SHPR[(((uint32_t)IRQn) & 0xFUL)-4UL] = (uint8_t)((priority << (8U - 4)) & (uint32_t)0xFFUL);
   }
 }
-# 4148 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4148 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4148 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4148 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4148 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4148 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t __NVIC_GetPriority(IRQn_Type IRQn)
 {
 
@@ -3509,11 +3509,11 @@ static inline
     return(((uint32_t)((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->SHPR[(((uint32_t)IRQn) & 0xFUL)-4UL] >> (8U - 4)));
   }
 }
-# 4173 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4173 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4173 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4173 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4173 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4173 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t NVIC_EncodePriority (uint32_t PriorityGroup, uint32_t PreemptPriority, uint32_t SubPriority)
 {
   uint32_t PriorityGroupTmp = (PriorityGroup & (uint32_t)0x07UL);
@@ -3528,11 +3528,11 @@ static inline
            ((SubPriority & (uint32_t)((1UL << (SubPriorityBits )) - 1UL)))
          );
 }
-# 4200 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4200 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4200 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4200 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4200 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4200 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void NVIC_DecodePriority (uint32_t Priority, uint32_t PriorityGroup, uint32_t* const pPreemptPriority, uint32_t* const pSubPriority)
 {
   uint32_t PriorityGroupTmp = (PriorityGroup & (uint32_t)0x07UL);
@@ -3545,22 +3545,22 @@ static inline
   *pPreemptPriority = (Priority >> SubPriorityBits) & (uint32_t)((1UL << (PreemptPriorityBits)) - 1UL);
   *pSubPriority = (Priority ) & (uint32_t)((1UL << (SubPriorityBits )) - 1UL);
 }
-# 4223 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4223 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4223 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4223 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4223 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4223 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void __NVIC_SetVector(IRQn_Type IRQn, uint32_t vector)
 {
   uint32_t *vectors = (uint32_t *) ((uintptr_t) ((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->VTOR);
   vectors[(int32_t)IRQn + 16] = vector;
   __DSB();
 }
-# 4239 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4239 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4239 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4239 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4239 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4239 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t __NVIC_GetVector(IRQn_Type IRQn)
 {
   uint32_t *vectors = (uint32_t *) ((uintptr_t) ((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->VTOR);
@@ -3573,9 +3573,9 @@ static inline
 
 
 
-# 4250 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4250 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 __attribute__((__noreturn__)) static inline 
-# 4250 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4250 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                            void __NVIC_SystemReset(void)
 {
   __DSB();
@@ -3588,15 +3588,15 @@ __attribute__((__noreturn__)) static inline
   for(;;)
   {
     
-# 4261 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4261 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
    __asm volatile ("nop")
-# 4261 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4261 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
           ;
   }
 }
-# 4473 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 1
-# 182 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 4473 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 1
+# 182 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
 typedef struct {
   uint32_t RBAR;
   uint32_t RLAR;
@@ -3607,9 +3607,9 @@ typedef struct {
 
 
 
-# 191 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 191 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 191 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 191 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                uint32_t ARM_MPU_TYPE()
 {
   return ((((MPU_Type *) ((0xE000E000UL) + 0x0D90UL) )->TYPE) >> 8);
@@ -3619,9 +3619,9 @@ static inline
 
 
 
-# 199 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 199 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 199 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 199 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_Enable(uint32_t MPU_Control)
 {
   __DMB();
@@ -3636,9 +3636,9 @@ static inline
 
 
 
-# 212 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 212 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 212 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 212 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_Disable(void)
 {
   __DMB();
@@ -3649,11 +3649,11 @@ static inline
   __DSB();
   __ISB();
 }
-# 257 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 257 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
 
-# 257 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 257 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 257 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 257 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_SetMemAttrEx(MPU_Type* mpu, uint8_t idx, uint8_t attr)
 {
   const uint8_t reg = idx / 4U;
@@ -3672,18 +3672,18 @@ static inline
 
 
 
-# 274 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 274 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 274 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 274 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_SetMemAttr(uint8_t idx, uint8_t attr)
 {
   ARM_MPU_SetMemAttrEx(((MPU_Type *) ((0xE000E000UL) + 0x0D90UL) ), idx, attr);
 }
-# 294 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 294 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
 
-# 294 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 294 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 294 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 294 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_ClrRegionEx(MPU_Type* mpu, uint32_t rnr)
 {
   mpu->RNR = rnr;
@@ -3694,18 +3694,18 @@ static inline
 
 
 
-# 303 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 303 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 303 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 303 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_ClrRegion(uint32_t rnr)
 {
   ARM_MPU_ClrRegionEx(((MPU_Type *) ((0xE000E000UL) + 0x0D90UL) ), rnr);
 }
-# 324 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 324 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
 
-# 324 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 324 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 324 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 324 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_SetRegionEx(MPU_Type* mpu, uint32_t rnr, uint32_t rbar, uint32_t rlar)
 {
   mpu->RNR = rnr;
@@ -3719,22 +3719,22 @@ static inline
 
 
 
-# 336 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 336 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 336 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 336 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_SetRegion(uint32_t rnr, uint32_t rbar, uint32_t rlar)
 {
   ARM_MPU_SetRegionEx(((MPU_Type *) ((0xE000E000UL) + 0x0D90UL) ), rnr, rbar, rlar);
 }
-# 358 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 358 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
 
-# 358 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 358 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 358 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 358 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_OrderedMemcpy(volatile uint32_t* dst, const uint32_t* 
-# 358 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 358 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
                                                                                   __restrict 
-# 358 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 358 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                                                                                              src, uint32_t len)
 {
   uint32_t i;
@@ -3751,9 +3751,9 @@ static inline
 
 
 
-# 373 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 373 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 373 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 373 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_LoadEx(MPU_Type* mpu, uint32_t rnr, ARM_MPU_Region_t const* table, uint32_t cnt)
 {
   const uint32_t rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
@@ -3785,14 +3785,14 @@ static inline
 
 
 
-# 403 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
+# 403 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h" 3
 static inline 
-# 403 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
+# 403 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_mpu.h"
                void ARM_MPU_Load(uint32_t rnr, ARM_MPU_Region_t const* table, uint32_t cnt)
 {
   ARM_MPU_LoadEx(((MPU_Type *) ((0xE000E000UL) + 0x0D90UL) ), rnr, table, cnt);
 }
-# 4474 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
+# 4474 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
 
 
 
@@ -3800,93 +3800,93 @@ static inline
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 1
-# 171 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 1
+# 171 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
 
-# 171 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 171 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 171 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 171 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Enable(void);
 
-# 172 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 172 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 172 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 172 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Disable(void);
 
 
-# 174 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 174 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 174 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 174 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Set_EVTYPER(uint32_t num, uint32_t type);
 
 
-# 176 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 176 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 176 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 176 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_CYCCNT_Reset(void);
 
-# 177 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 177 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 177 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 177 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_EVCNTR_ALL_Reset(void);
 
 
-# 179 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 179 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 179 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 179 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_CNTR_Enable(uint32_t mask);
 
-# 180 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 180 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 180 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 180 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_CNTR_Disable(uint32_t mask);
 
 
-# 182 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 182 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 182 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 182 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                uint32_t ARM_PMU_Get_CCNTR(void);
 
-# 183 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 183 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 183 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 183 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                uint32_t ARM_PMU_Get_EVCNTR(uint32_t num);
 
 
-# 185 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 185 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 185 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 185 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                uint32_t ARM_PMU_Get_CNTR_OVS(void);
 
-# 186 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 186 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 186 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 186 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Set_CNTR_OVS(uint32_t mask);
 
 
-# 188 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 188 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 188 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 188 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Set_CNTR_IRQ_Enable(uint32_t mask);
 
-# 189 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 189 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 189 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 189 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Set_CNTR_IRQ_Disable(uint32_t mask);
 
 
-# 191 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 191 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 191 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 191 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_CNTR_Increment(uint32_t mask);
 
 
 
 
 
-# 196 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 196 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 196 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 196 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Enable(void)
 {
   ((PMU_Type *) (0xE0003000UL) )->CTRL |= (1UL );
@@ -3896,9 +3896,9 @@ static inline
 
 
 
-# 204 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 204 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 204 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 204 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Disable(void)
 {
   ((PMU_Type *) (0xE0003000UL) )->CTRL &= ~(1UL );
@@ -3910,9 +3910,9 @@ static inline
 
 
 
-# 214 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 214 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 214 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 214 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Set_EVTYPER(uint32_t num, uint32_t type)
 {
   ((PMU_Type *) (0xE0003000UL) )->EVTYPER[num] = type;
@@ -3922,9 +3922,9 @@ static inline
 
 
 
-# 222 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 222 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 222 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 222 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_CYCCNT_Reset(void)
 {
   ((PMU_Type *) (0xE0003000UL) )->CTRL |= (1UL << 2U);
@@ -3934,27 +3934,27 @@ static inline
 
 
 
-# 230 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 230 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 230 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 230 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_EVCNTR_ALL_Reset(void)
 {
   ((PMU_Type *) (0xE0003000UL) )->CTRL |= (1UL << 1U);
 }
-# 242 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 242 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
 
-# 242 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 242 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 242 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 242 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_CNTR_Enable(uint32_t mask)
 {
   ((PMU_Type *) (0xE0003000UL) )->CNTENSET = mask;
 }
-# 254 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 254 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
 
-# 254 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 254 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 254 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 254 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_CNTR_Disable(uint32_t mask)
 {
   ((PMU_Type *) (0xE0003000UL) )->CNTENCLR = mask;
@@ -3965,9 +3965,9 @@ static inline
 
 
 
-# 263 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 263 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 263 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 263 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                uint32_t ARM_PMU_Get_CCNTR(void)
 {
   return ((PMU_Type *) (0xE0003000UL) )->CCNTR;
@@ -3979,9 +3979,9 @@ static inline
 
 
 
-# 273 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 273 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 273 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 273 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                uint32_t ARM_PMU_Get_EVCNTR(uint32_t num)
 {
   return (0xFFFFUL ) & ((PMU_Type *) (0xE0003000UL) )->EVCNTR[num];
@@ -3994,36 +3994,36 @@ static inline
 
 
 
-# 284 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 284 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 284 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 284 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                uint32_t ARM_PMU_Get_CNTR_OVS(void)
 {
   return ((PMU_Type *) (0xE0003000UL) )->OVSSET;
 }
-# 296 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 296 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
 
-# 296 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 296 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 296 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 296 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Set_CNTR_OVS(uint32_t mask)
 {
   ((PMU_Type *) (0xE0003000UL) )->OVSCLR = mask;
 }
-# 308 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 308 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
 
-# 308 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 308 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 308 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 308 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Set_CNTR_IRQ_Enable(uint32_t mask)
 {
   ((PMU_Type *) (0xE0003000UL) )->INTENSET = mask;
 }
-# 320 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 320 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
 
-# 320 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 320 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 320 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 320 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_Set_CNTR_IRQ_Disable(uint32_t mask)
 {
   ((PMU_Type *) (0xE0003000UL) )->INTENCLR = mask;
@@ -4035,19 +4035,19 @@ static inline
 
 
 
-# 330 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
+# 330 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h" 3
 static inline 
-# 330 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
+# 330 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv8m_pmu.h"
                void ARM_PMU_CNTR_Increment(uint32_t mask)
 {
   ((PMU_Type *) (0xE0003000UL) )->SWINC = mask;
 }
-# 4482 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
-# 4564 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4482 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
+# 4564 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4564 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4564 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4564 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4564 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t SCB_GetFPUType(void)
 {
   uint32_t mvfr0;
@@ -4066,11 +4066,11 @@ static inline
     return 0U;
   }
 }
-# 4602 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4602 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4602 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4602 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4602 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4602 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t SCB_GetMVEType(void)
 {
   const uint32_t mvfr1 = ((FPU_Type *) ((0xE000E000UL) + 0x0F30UL) )->MVFR1;
@@ -4087,13 +4087,13 @@ static inline
     return 0U;
   }
 }
-# 4627 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 1
-# 55 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 4627 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 1
+# 55 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
 
-# 55 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 55 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 55 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 55 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_EnableICache (void)
 {
 
@@ -4116,9 +4116,9 @@ __attribute__((always_inline)) static inline
 
 
 
-# 76 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 76 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 76 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 76 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_DisableICache (void)
 {
 
@@ -4137,9 +4137,9 @@ __attribute__((always_inline)) static inline
 
 
 
-# 93 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 93 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 93 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 93 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_InvalidateICache (void)
 {
 
@@ -4150,11 +4150,11 @@ __attribute__((always_inline)) static inline
     __ISB();
 
 }
-# 113 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 113 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
 
-# 113 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 113 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 113 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 113 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_InvalidateICache_by_Addr (volatile void *addr, int32_t isize)
 {
 
@@ -4182,9 +4182,9 @@ __attribute__((always_inline)) static inline
 
 
 
-# 139 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 139 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 139 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 139 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_EnableDCache (void)
 {
 
@@ -4226,9 +4226,9 @@ __attribute__((always_inline)) static inline
 
 
 
-# 179 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 179 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 179 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 179 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_DisableDCache (void)
 {
 
@@ -4247,7 +4247,7 @@ __attribute__((always_inline)) static inline
 
     ((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->CCR &= ~(uint32_t)(1UL << 16U);
     __DSB();
-# 223 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 223 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
     locals.ccsidr = ((SCB_Type *) ((0xE000E000UL) + 0x0D00UL) )->CCSIDR;
 
     locals.sets = (uint32_t)((((locals.ccsidr) & (0x7FFFUL << 13U) ) >> 13U ));
@@ -4273,9 +4273,9 @@ __attribute__((always_inline)) static inline
 
 
 
-# 247 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 247 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 247 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 247 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_InvalidateDCache (void)
 {
 
@@ -4312,9 +4312,9 @@ __attribute__((always_inline)) static inline
 
 
 
-# 282 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 282 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 282 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 282 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_CleanDCache (void)
 {
 
@@ -4351,9 +4351,9 @@ __attribute__((always_inline)) static inline
 
 
 
-# 317 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 317 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 317 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 317 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_CleanInvalidateDCache (void)
 {
 
@@ -4383,11 +4383,11 @@ __attribute__((always_inline)) static inline
     __ISB();
 
 }
-# 356 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 356 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
 
-# 356 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 356 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 356 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 356 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_InvalidateDCache_by_Addr (volatile void *addr, int32_t dsize)
 {
 
@@ -4408,11 +4408,11 @@ __attribute__((always_inline)) static inline
     }
 
 }
-# 386 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 386 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
 
-# 386 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 386 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 386 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 386 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_CleanDCache_by_Addr (volatile void *addr, int32_t dsize)
 {
 
@@ -4433,11 +4433,11 @@ __attribute__((always_inline)) static inline
     }
 
 }
-# 416 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 416 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
 
-# 416 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
+# 416 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h" 3
 __attribute__((always_inline)) static inline 
-# 416 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
+# 416 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h"
                     void SCB_CleanInvalidateDCache_by_Addr (volatile void *addr, int32_t dsize)
 {
 
@@ -4458,19 +4458,19 @@ __attribute__((always_inline)) static inline
     }
 
 }
-# 4628 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
-# 4670 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 1
-# 47 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 4628 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
+# 4670 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 1
+# 47 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
 
-# 47 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
+# 47 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
 __attribute__((always_inline)) static inline 
-# 47 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 47 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
                     void __get_PAC_KEY_P (uint32_t* pPacKey) {
   
-# 48 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
+# 48 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
  __asm 
-# 48 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 48 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
        volatile (
   "mrs   r1, pac_key_p_0\n"
   "str   r1,[%0,#0]\n"
@@ -4490,14 +4490,14 @@ __attribute__((always_inline)) static inline
 
 
 
-# 66 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
+# 66 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
 __attribute__((always_inline)) static inline 
-# 66 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 66 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
                     void __set_PAC_KEY_P (uint32_t* pPacKey) {
   
-# 67 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
+# 67 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
  __asm 
-# 67 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 67 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
        volatile (
   "ldr   r1,[%0,#0]\n"
   "msr   pac_key_p_0, r1\n"
@@ -4517,14 +4517,14 @@ __attribute__((always_inline)) static inline
 
 
 
-# 85 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
+# 85 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
 __attribute__((always_inline)) static inline 
-# 85 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 85 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
                     void __get_PAC_KEY_U (uint32_t* pPacKey) {
   
-# 86 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
+# 86 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
  __asm 
-# 86 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 86 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
        volatile (
   "mrs   r1, pac_key_u_0\n"
   "str   r1,[%0,#0]\n"
@@ -4544,14 +4544,14 @@ __attribute__((always_inline)) static inline
 
 
 
-# 104 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
+# 104 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
 __attribute__((always_inline)) static inline 
-# 104 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 104 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
                     void __set_PAC_KEY_U (uint32_t* pPacKey) {
   
-# 105 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
+# 105 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h" 3
  __asm 
-# 105 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
+# 105 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/m-profile/armv81m_pac.h"
        volatile (
   "ldr   r1,[%0,#0]\n"
   "msr   pac_key_u_0, r1\n"
@@ -4564,12 +4564,12 @@ __attribute__((always_inline)) static inline
   : : "r" (pPacKey) : "memory", "r1"
   );
 }
-# 4671 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
-# 4688 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4671 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 2
+# 4688 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4688 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4688 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4688 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4688 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                void DCB_SetAuthCtrl(uint32_t value)
 {
     __DSB();
@@ -4586,27 +4586,27 @@ static inline
 
 
 
-# 4703 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4703 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4703 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4703 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t DCB_GetAuthCtrl(void)
 {
     return (((DCB_Type *) (0xE000EDF0UL) )->DAUTHCTRL);
 }
-# 4755 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4755 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4755 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4755 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4755 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4755 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t DIB_GetAuthStatus(void)
 {
     return (((DIB_Type *) (0xE000EFB0UL) )->DAUTHSTATUS);
 }
-# 4799 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4799 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4799 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4799 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4799 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4799 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t SysTick_Config(uint32_t ticks)
 {
   if ((ticks - 1UL) > (0xFFFFFFUL ))
@@ -4622,13 +4622,13 @@ static inline
                    (1UL );
   return (0UL);
 }
-# 4859 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4859 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 extern volatile int32_t ITM_RxBuffer;
-# 4871 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4871 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4871 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4871 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4871 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4871 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                uint32_t ITM_SendChar (uint32_t ch)
 {
   if (((((ITM_Type *) (0xE0000000UL) )->TCR & (1UL )) != 0UL) &&
@@ -4637,20 +4637,20 @@ static inline
     while (((ITM_Type *) (0xE0000000UL) )->PORT[0U].u32 == 0UL)
     {
       
-# 4878 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4878 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
      __asm volatile ("nop")
-# 4878 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4878 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
             ;
     }
     ((ITM_Type *) (0xE0000000UL) )->PORT[0U].u8 = (uint8_t)ch;
   }
   return (ch);
 }
-# 4892 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4892 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4892 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4892 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4892 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4892 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                int32_t ITM_ReceiveChar (void)
 {
   int32_t ch = -1;
@@ -4663,11 +4663,11 @@ static inline
 
   return (ch);
 }
-# 4912 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4912 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
 
-# 4912 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
+# 4912 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h" 3
 static inline 
-# 4912 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
+# 4912 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/arm/CMSIS_6/CMSIS/Core/Include/core_cm85.h"
                int32_t ITM_CheckChar (void)
 {
 
@@ -4680,16 +4680,16 @@ static inline
     return (1);
   }
 }
-# 56 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h" 1
-# 16 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h"
+# 56 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h" 1
+# 16 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h"
 extern uint32_t SystemCoreClock;
-# 27 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h"
+# 27 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h"
 extern void SystemInit(void);
-# 38 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h"
+# 38 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h"
 extern void SystemCoreClockUpdate(void);
-# 57 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h" 2
-# 106 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 57 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h" 2
+# 106 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile const uint16_t RESERVED;
@@ -8435,7 +8435,7 @@ typedef struct
     };
     volatile const uint32_t RESERVED2[4];
 } R_PDM_CH_Type;
-# 3870 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 3870 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -8526,7 +8526,7 @@ typedef struct
         } CPMSKCTL_b;
     };
 } R_ACMPHS0_Type;
-# 3969 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 3969 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile const uint32_t RESERVED;
@@ -8978,7 +8978,7 @@ typedef struct
         } SFSAMON_b;
     };
 } R_PSCU_Type;
-# 4429 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 4429 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile R_BUS_CSa_Type CSa[8];
@@ -9091,7 +9091,7 @@ typedef struct
     volatile const uint32_t RESERVED12[16];
     volatile R_BUS_MBWERR_Type MBWERR;
 } R_BUS_Type;
-# 4550 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 4550 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -9197,7 +9197,7 @@ typedef struct
         } CACNTBR_b;
     };
 } R_CAC_Type;
-# 4664 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 4664 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile R_CANFD_CFDC_Type CFDC[1];
@@ -9814,7 +9814,7 @@ typedef struct
     volatile const uint32_t RESERVED8[118];
     volatile R_CANFD_CFDRM_Type CFDRM[4];
 } R_CANFD_Type;
-# 5289 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 5289 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -9913,7 +9913,7 @@ typedef struct
     };
     volatile const uint16_t RESERVED1;
 } R_CRC_Type;
-# 5396 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 5396 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -9965,7 +9965,7 @@ typedef struct
         } DACR2_b;
     };
 } R_DAC_B0_Type;
-# 5456 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 5456 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -10111,7 +10111,7 @@ typedef struct
         } FSBLSTAT_b;
     };
 } R_DEBUG_Type;
-# 5610 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 5610 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -10174,7 +10174,7 @@ typedef struct
         } DELSR_b[8];
     };
 } R_DMA_Type;
-# 5681 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 5681 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -10366,7 +10366,7 @@ typedef struct
     volatile const uint8_t RESERVED3;
     volatile const uint16_t RESERVED4;
 } R_DMAC0_Type;
-# 5881 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 5881 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -10409,7 +10409,7 @@ typedef struct
         } DODSR_b;
     };
 } R_DOC_Type;
-# 5932 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 5932 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -11101,7 +11101,7 @@ typedef struct
         } DBWER_b;
     };
 } R_DRW_Type;
-# 6632 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 6632 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -11254,7 +11254,7 @@ typedef struct
     };
     volatile const uint16_t RESERVED10;
 } R_DTC_Type;
-# 6793 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 6793 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -11483,7 +11483,7 @@ typedef struct
         } ELCPARC_b;
     };
 } R_ELC_Type;
-# 7030 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 7030 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -11806,7 +11806,7 @@ typedef struct
         struct
         {
             volatile const uint32_t RDFAR : 32;
-# 7360 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 7360 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
         } RDFAR_b;
     };
     volatile const uint32_t RESERVED14;
@@ -11835,11 +11835,11 @@ typedef struct
         struct
         {
             volatile const uint32_t TDFAR : 32;
-# 7396 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 7396 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
         } TDFAR_b;
     };
 } R_ETHERC_EDMAC_Type;
-# 7408 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 7408 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -11907,7 +11907,7 @@ typedef struct
     volatile const uint32_t RESERVED2[5];
     volatile R_GLCDC_SYSCNT_Type SYSCNT;
 } R_GLCDC_Type;
-# 7484 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 7484 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -13302,7 +13302,7 @@ typedef struct
         } GTICCR_b;
     };
 } R_GPT0_Type;
-# 8887 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 8887 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -13316,7 +13316,7 @@ typedef struct
         } GTCLKCR_b;
     };
 } R_GPT_GTCLK_Type;
-# 8909 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 8909 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -13356,7 +13356,7 @@ typedef struct
     volatile R_GPT_ODC_GTDLYR_Type GTDLYR[4];
     volatile R_GPT_ODC_GTDLYR_Type GTDLYF[4];
 } R_GPT_ODC_Type;
-# 8957 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 8957 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -13404,7 +13404,7 @@ typedef struct
         } OPSCR_b;
     };
 } R_GPT_OPS_Type;
-# 9013 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 9013 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -13476,7 +13476,7 @@ typedef struct
     };
     volatile const uint16_t RESERVED2;
 } R_GPT_POEG0_Type;
-# 9093 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 9093 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -13871,7 +13871,7 @@ typedef struct
         } IELSR_b[96];
     };
 } R_ICU_Type;
-# 9496 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 9496 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -14122,7 +14122,7 @@ typedef struct
         } ICWUR2_b;
     };
 } R_IIC0_Type;
-# 9755 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 9755 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -14190,7 +14190,7 @@ typedef struct
     volatile const uint8_t RESERVED2;
     volatile const uint16_t RESERVED3;
 } R_IWDT_Type;
-# 9831 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 9831 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -15788,7 +15788,7 @@ typedef struct
         } SC2CPT_b;
     };
 } R_I3C0_Type;
-# 11437 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 11437 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -15829,12 +15829,12 @@ typedef struct
     volatile R_MPU_MMPU_GROUP_Type MIPI_CSI;
     volatile R_MPU_MMPU_GROUP_Type NPU;
 } R_MPU_MMPU_Type;
-# 11486 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 11486 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile R_MPU_SPMON_SP_Type SP[2];
 } R_MPU_SPMON_Type;
-# 11499 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 11499 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -16170,7 +16170,7 @@ typedef struct
         };
     };
 } R_MSTP_Type;
-# 11843 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 11843 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -16441,12 +16441,12 @@ typedef struct
         };
     };
 } R_PORT0_Type;
-# 12122 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 12122 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile R_PFS_PORT_Type PORT[15];
 } R_PFS_Type;
-# 12135 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 12135 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -16493,7 +16493,7 @@ typedef struct
     volatile const uint16_t RESERVED5[13];
     volatile R_PMISC_PMSAR_Type PMSAR[15];
 } R_PMISC_Type;
-# 12190 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 12190 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -16998,7 +16998,7 @@ typedef struct
     volatile const uint16_t RESERVED21[5];
     volatile R_RTC_CP_Type CP[3];
 } R_RTC_Type;
-# 12703 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 12703 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -17884,7 +17884,7 @@ typedef struct
     volatile const uint8_t RESERVED2;
     volatile const uint16_t RESERVED3;
 } R_SCI0_Type;
-# 13597 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 13597 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -17940,10 +17940,10 @@ typedef struct
         struct
         {
             volatile uint32_t STP : 1;
-# 13660 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 13660 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
             uint32_t : 7;
             volatile uint32_t SEC : 1;
-# 13670 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 13670 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
             uint32_t : 23;
         } SD_STOP_b;
     };
@@ -18154,7 +18154,7 @@ typedef struct
         struct
         {
             volatile uint32_t LEN : 10;
-# 13888 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 13888 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
             uint32_t : 22;
         } SD_SIZE_b;
     };
@@ -18343,7 +18343,7 @@ typedef struct
         } EXT_SWAP_b;
     };
 } R_SDHI0_Type;
-# 14085 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 14085 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -18585,7 +18585,7 @@ typedef struct
         } SPPR_b;
     };
 } R_SPI0_Type;
-# 14335 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 14335 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -18872,7 +18872,7 @@ typedef struct
         } SRAMEAR31_b;
     };
 } R_SRAM_Type;
-# 14630 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 14630 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -19066,7 +19066,7 @@ typedef struct
         } SSISCR_b;
     };
 } R_SSI0_Type;
-# 14832 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 14832 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile const uint32_t RESERVED[3];
@@ -22197,7 +22197,7 @@ typedef struct
         } VBTBKR_b[128];
     };
 } R_SYSTEM_Type;
-# 17971 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 17971 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -22211,7 +22211,7 @@ typedef struct
         } TSCDR_b;
     };
 } R_TSN_CAL_Type;
-# 17993 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 17993 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -22227,7 +22227,7 @@ typedef struct
         } TSCR_b;
     };
 } R_TSN_CTRL_Type;
-# 18017 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 18017 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -23287,7 +23287,7 @@ typedef struct
         } DPUSR1R_FS_b;
     };
 } R_USB_FS0_Type;
-# 19085 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 19085 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -23855,7 +23855,7 @@ typedef struct
         } CSCE4_b;
     };
 } R_VIN_Type;
-# 19661 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 19661 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -23923,7 +23923,7 @@ typedef struct
     volatile const uint8_t RESERVED2;
     volatile const uint16_t RESERVED3;
 } R_WDT_Type;
-# 19737 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 19737 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -25044,7 +25044,7 @@ typedef struct
         } IPCPAR_b;
     };
 } R_CPSCU_Type;
-# 20866 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 20866 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -29521,7 +29521,7 @@ typedef struct
         } ADFIFODR8_b;
     };
 } R_ADC_B0_Type;
-# 25351 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 25351 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -29569,7 +29569,7 @@ typedef struct
     volatile uint32_t DODSR0;
     volatile uint32_t DODSR1;
 } R_DOC_B_Type;
-# 25407 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 25407 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -30109,7 +30109,7 @@ typedef struct
         } XFCLR_b;
     };
 } R_SCI_B0_Type;
-# 25955 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 25955 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile uint32_t SPDR;
@@ -30505,7 +30505,7 @@ typedef struct
         } SPFCR_b;
     };
 } R_SPI_B0_Type;
-# 26359 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 26359 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -31484,7 +31484,7 @@ typedef struct
         } DPUSRCR_b;
     };
 } R_USB_HS0_Type;
-# 27346 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 27346 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -31855,7 +31855,7 @@ typedef struct
         } INTE_b;
     };
 } R_XSPI0_Type;
-# 27725 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 27725 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -32031,7 +32031,7 @@ typedef struct
         } DPHYMDC_b;
     };
 } R_MIPI_PHY_Type;
-# 27909 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 27909 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -34502,7 +34502,7 @@ typedef struct
         } GSIU_b;
     };
 } R_MIPI_CSI_Type;
-# 30388 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 30388 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -35375,7 +35375,7 @@ typedef struct
         } CDBCR2_M_b;
     };
 } R_CEU_Type;
-# 31269 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 31269 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -35517,7 +35517,7 @@ typedef struct
     };
     volatile const uint8_t RESERVED;
 } R_ULPT0_Type;
-# 31419 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 31419 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -35625,7 +35625,7 @@ typedef struct
         } FSBLSTATM_b;
     };
 } R_DEBUG_OCD_Type;
-# 31535 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 31535 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -35683,7 +35683,7 @@ typedef struct
         } REG03_b;
     };
 } R_DOTF_Type;
-# 31601 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 31601 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -35692,7 +35692,7 @@ typedef struct
         volatile R_AGTX0_AGT16_Type AGT16;
     };
 } R_AGTX0_Type;
-# 31618 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 31618 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -36085,7 +36085,7 @@ typedef struct
         } CAMID1_b;
     };
 } R_COMA_Type;
-# 32019 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 32019 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     volatile const uint32_t RESERVED[12];
@@ -36387,7 +36387,7 @@ typedef struct
     };
     volatile const uint16_t RESERVED40;
 } R_CPU_CTRL_Type;
-# 32329 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 32329 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -36454,7 +36454,7 @@ typedef struct
         } EC710EAD0_b;
     };
 } R_ECCMB0_Type;
-# 32404 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 32404 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -36893,7 +36893,7 @@ typedef struct
         } TASSTSR_b;
     };
 } R_ESWM_Type;
-# 32851 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 32851 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -38821,7 +38821,7 @@ typedef struct
         } EASCR_b;
     };
 } R_ETHA0_Type;
-# 34787 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 34787 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -39687,7 +39687,7 @@ typedef struct
     volatile const uint32_t POTCPRM3;
     volatile const uint32_t POTCPRL3;
 } R_GPTP_Type;
-# 35661 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 35661 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -44008,7 +44008,7 @@ typedef struct
         } GWEID5_b;
     };
 } R_GWCA0_Type;
-# 39990 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 39990 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -44028,7 +44028,7 @@ typedef struct
     volatile R_IPC_IPC_Type IPC0;
     volatile R_IPC_IPC_Type IPC1;
 } R_IPC_Type;
-# 40018 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 40018 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -59373,7 +59373,7 @@ typedef struct
         } FWMID0_b;
     };
 } R_MFWD_Type;
-# 55371 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 55371 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -65454,7 +65454,7 @@ typedef struct
         };
     };
 } R_MIPI_DSI_Type;
-# 61460 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 61460 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -66028,7 +66028,7 @@ typedef struct
     };
     volatile const uint16_t RESERVED61;
 } R_MRMS_Type;
-# 62042 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 62042 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -66854,7 +66854,7 @@ typedef struct
         } CID3_b;
     };
 } R_NPU_Type;
-# 62876 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 62876 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -67011,7 +67011,7 @@ typedef struct
     volatile const uint32_t RESERVED2[31];
     volatile R_PDM_CH_Type CH[3];
 } R_PDM_Type;
-# 63041 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 63041 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -68499,7 +68499,7 @@ typedef struct
         } MTXBCPL_b;
     };
 } R_RMAC0_Type;
-# 64537 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
+# 64537 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7KA8P1KF_core0.h"
 typedef struct
 {
     union
@@ -68644,10 +68644,10 @@ typedef struct
         } TCMEARS1_b;
     };
 } R_TCM_Type;
-# 118 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h" 2
-# 37 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h" 1
-# 38 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
+# 118 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h" 2
+# 37 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/system.h" 1
+# 38 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
 
 
 
@@ -68660,8 +68660,8 @@ typedef struct
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 1
-# 16 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 1
+# 16 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h" 1 3 4
 # 145 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h" 3 4
 
@@ -68671,16 +68671,16 @@ typedef int ptrdiff_t;
 typedef unsigned int size_t;
 # 329 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h" 3 4
 typedef unsigned int wchar_t;
-# 17 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 17 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h" 1 3 4
-# 18 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 18 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/assert.h" 1 3
 # 39 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/assert.h" 3
 void __assert (const char *, int, const char *)
      __attribute__ ((__noreturn__));
 void __assert_func (const char *, int, const char *, const char *)
      __attribute__ ((__noreturn__));
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/string.h" 1 3
 # 11 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/string.h" 3
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/sys/reent.h" 1 3
@@ -69177,17 +69177,17 @@ char * _strerror_r (struct _reent *, int, int, int *);
 # 176 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/string.h" 2 3
 
 
-# 20 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 20 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h" 1
-# 23 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h" 1
-# 24 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h" 1
+# 23 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h" 1
+# 24 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_tfu.h" 1
-# 18 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_tfu.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_tfu.h" 1
+# 18 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_tfu.h"
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/math.h" 1 3
 
 
@@ -69433,35 +69433,35 @@ extern long double erfl (long double);
 extern long double erfcl (long double);
 # 638 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/math.h" 3
 
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_tfu.h" 2
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_tfu.h" 2
 
 
 
 
-# 216 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_tfu.h"
+# 216 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_tfu.h"
 
-# 27 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_sdram.h" 1
-# 13 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_sdram.h"
+# 27 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_sdram.h" 1
+# 13 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_sdram.h"
 
-# 30 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_sdram.h"
+# 30 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_sdram.h"
 
-# 30 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_sdram.h"
+# 30 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_sdram.h"
 void R_BSP_SdramInit(
-# 30 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_sdram.h" 3 4
+# 30 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_sdram.h" 3 4
                     _Bool 
-# 30 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_sdram.h"
+# 30 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_sdram.h"
                          init_memory);
 void R_BSP_SdramSelfRefreshEnable(void);
 void R_BSP_SdramSelfRefreshDisable(void);
 
 
 
-# 28 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h" 1
-# 21 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
+# 28 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h" 1
+# 21 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
 
-# 38 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
+# 38 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
 typedef enum e_mmf_state
 {
     MEMORY_MIRROR_DISABLED = 0,
@@ -69474,27 +69474,27 @@ typedef struct st_mmf_status
     mmf_state_t mmf_state;
     uint32_t mmf_cur_addr;
 } mmf_status_t;
-# 70 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
+# 70 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
 
-# 70 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h" 3
+# 70 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h" 3
 static inline 
-# 70 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
+# 70 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
                fsp_err_t R_BSP_MemoryMirrorStatusGet (mmf_status_t * p_mmf_status)
 {
-# 87 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
+# 87 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
     (void) ((p_mmf_status));
 
     return FSP_ERR_UNSUPPORTED;
 
 }
-# 104 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
+# 104 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
 
-# 104 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h" 3
+# 104 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h" 3
 static inline 
-# 104 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
+# 104 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
                fsp_err_t R_BSP_MemoryMirrorAddrSet (const uint32_t addr)
 {
-# 131 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
+# 131 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mmf.h"
     (void) ((addr));
 
     return FSP_ERR_UNSUPPORTED;
@@ -69503,11 +69503,11 @@ static inline
 
 
 
-# 29 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ipc.h" 1
-# 15 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ipc.h"
+# 29 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ipc.h" 1
+# 15 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ipc.h"
 
-# 32 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ipc.h"
+# 32 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ipc.h"
 typedef struct st_bsp_ipc_semaphore_handle
 {
     uint8_t semaphore_num;
@@ -69515,7 +69515,7 @@ typedef struct st_bsp_ipc_semaphore_handle
 
 
 typedef void (* bsp_ipc_nmi_cb_t)(void);
-# 48 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ipc.h"
+# 48 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ipc.h"
 fsp_err_t R_BSP_IpcSemaphoreTake(bsp_ipc_semaphore_handle_t const * const p_semaphore_handle);
 fsp_err_t R_BSP_IpcSemaphoreGive(bsp_ipc_semaphore_handle_t const * const p_semaphore_handle);
 fsp_err_t R_BSP_IpcNmiRequestSet(void);
@@ -69525,25 +69525,25 @@ fsp_err_t R_BSP_IpcNmiEnable(bsp_ipc_nmi_cb_t p_callback);
 
 
 
-# 30 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h" 1
-# 15 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h"
+# 30 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h" 1
+# 15 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h"
 
-# 25 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h"
+# 25 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h"
 typedef fsp_err_t (* bsp_ospi_b_startup_fn_t)(void);
-# 34 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h"
+# 34 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h"
 void R_BSP_OspiBInit(bsp_ospi_b_startup_fn_t p_startup_fn, 
-# 34 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h" 3 4
+# 34 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h" 3 4
                                                           _Bool 
-# 34 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h"
+# 34 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_ospi_b.h"
                                                                init_from_sip_memory);
 
 
 
-# 31 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 31 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
 
-# 1 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\Debug/bsp_linker_info.h" 1
-# 103 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\Debug/bsp_linker_info.h"
+# 1 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\Debug/bsp_linker_info.h" 1
+# 59 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\Debug/bsp_linker_info.h"
 typedef enum e_bsp_init_mem {
  INIT_MEM_ZERO,
  INIT_MEM_FLASH,
@@ -69600,13 +69600,13 @@ typedef struct st_bsp_init_info {
 
 
 extern bsp_init_info_t const g_init_info;
-# 33 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
+# 33 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 2
 
 
 
 
 
-# 291 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 291 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 typedef enum e_bsp_warm_start_event
 {
     BSP_WARM_START_RESET = 0,
@@ -69669,11 +69669,11 @@ typedef struct st_bsp_part_number
 
 
 uint32_t R_BSP_SourceClockHzGet(fsp_priv_source_clock_t clock);
-# 367 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 367 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 
-# 367 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 367 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 367 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 367 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                IRQn_Type R_FSP_CurrentIrqGet (void)
 {
     xPSR_Type xpsr_value;
@@ -69688,9 +69688,9 @@ static inline
 
 
 
-# 380 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 380 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 380 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 380 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                uint32_t R_FSP_SystemClockHzGet (fsp_priv_clock_t clock)
 {
 
@@ -69708,7 +69708,7 @@ static inline
     {
         return SystemCoreClock;
     }
-# 405 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 405 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
     uint32_t cpuclk_div = (((R_SYSTEM_Type *) (0x4001E000UL + 0U))->SCKDIVCR2) & (0xFU);
 
 
@@ -69729,7 +69729,7 @@ static inline
     {
         return (SystemCoreClock << cpuclk_div) >> clock_div;
     }
-# 436 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 436 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 }
 
 
@@ -69738,9 +69738,9 @@ static inline
 
 
 
-# 443 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 443 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 443 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 443 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                uint32_t R_FSP_ClockDividerGet (uint32_t ckdivcr)
 {
     if (2U >= ckdivcr)
@@ -69793,11 +69793,11 @@ static inline
         return 16U << (ckdivcr - 8U);
     }
 }
-# 520 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 520 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 
-# 520 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 520 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 520 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 520 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                uint32_t R_FSP_SpiClockHzGet (void)
 {
     uint32_t spidivcr = (((R_SYSTEM_Type *) (0x4001E000UL + 0U))->SPICKDIVCR);
@@ -69809,11 +69809,11 @@ static inline
 
     return R_BSP_SourceClockHzGet(spicksel) / clock_div;
 }
-# 540 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 540 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 
-# 540 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 540 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 540 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 540 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                uint32_t R_FSP_SciClockHzGet (void)
 {
     uint32_t scidivcr = (((R_SYSTEM_Type *) (0x4001E000UL + 0U))->SCICKDIVCR);
@@ -69825,11 +69825,11 @@ static inline
 
     return R_BSP_SourceClockHzGet(scicksel) / clock_div;
 }
-# 559 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 559 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 
-# 559 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 559 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 559 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 559 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                bsp_unique_id_t const * R_BSP_UniqueIdGet (void)
 {
 
@@ -69840,14 +69840,14 @@ static inline
     return (bsp_unique_id_t *) (0x02F07B00UL);
 
 }
-# 579 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 579 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 
-# 579 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 579 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 579 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 579 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                fsp_err_t R_BSP_PartNumberGet (bsp_part_number_t * const p_part_number)
 {
-# 594 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 594 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
     bsp_part_number_t * p_pnr = (bsp_part_number_t *) (0x02C1EC38UL);
 
 
@@ -69885,59 +69885,34 @@ static inline
 
 
 
-# 630 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 630 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 630 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 630 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                void R_BSP_FlashCacheDisable (void)
 {
-# 670 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 670 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 }
 
 
 
 
 
-# 675 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
+# 675 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
 static inline 
-# 675 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 675 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
                void R_BSP_FlashCacheEnable (void)
 {
-# 718 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+# 718 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
 }
+# 765 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_common.h"
+
+# 51 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
 
 
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h" 1
+# 11 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h"
 
-
-
-
-
-
-# 726 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h" 3
-static inline 
-# 726 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
-               void R_BSP_SecondaryCoreStart (void)
-{
-
-    ((R_CPU_CTRL_Type *) (0x4000F000UL + 0U))->CPU1INITVTOR = (uint32_t) (0x02080000);
-
-
-
-
-    ((R_CPU_CTRL_Type *) (0x4000F000UL + 0U))->CPU1WAITCR = 0;
-
-
-    ((R_CPU_CTRL_Type *) (0x4000F000UL + 0U))->CPU1ACTCSR = (0xA5 << (8UL)) |
-                             (0x1UL);
-}
-# 765 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_common.h"
-
-# 51 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-
-
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h" 1
-# 11 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h"
-
-# 27 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h"
+# 27 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h"
 typedef enum e_bsp_reg_protect
 {
 
@@ -69957,44 +69932,44 @@ typedef enum e_bsp_reg_protect
 
     BSP_REG_PROTECT_RESET,
 } bsp_reg_protect_t;
-# 58 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h"
+# 58 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_register_protection.h"
 void bsp_register_protect_open(void);
 
 
 
-# 54 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 1
-# 13 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 54 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 1
+# 13 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 27 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 27 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 extern void * gp_renesas_isr_context[(13)];
-# 40 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 40 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 40 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 40 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 40 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 40 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void R_FSP_IsrContextSet (IRQn_Type const irq, void * p_context)
 {
 
 
     gp_renesas_isr_context[irq] = p_context;
 }
-# 54 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 54 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 54 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 54 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 54 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 54 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void * R_FSP_IsrContextGet (IRQn_Type const irq)
 {
 
 
     return gp_renesas_isr_context[irq];
 }
-# 74 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 74 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 74 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 74 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 74 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 74 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void R_BSP_IrqStatusClear (IRQn_Type irq)
 {
 
@@ -70003,16 +69978,16 @@ static inline
 
 
     
-# 81 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 81 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
    __asm 
-# 81 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 81 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
    volatile ("" : : "r" (((R_ICU_Type *) (0x40006000UL + 0U))->IELSR[irq]));;
 }
-# 94 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 94 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 94 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 94 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 94 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 94 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void R_BSP_IrqClearPending (IRQn_Type irq)
 {
 
@@ -70029,25 +70004,25 @@ static inline
     uint32_t _irq = (uint32_t) irq;
     ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ICPR[(((uint32_t) irq) >> 5UL)] = (uint32_t) (1UL << (_irq & 0x1FUL));
 }
-# 120 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 120 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 120 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 120 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 120 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 120 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void R_BSP_IrqCfg (IRQn_Type const irq, uint32_t priority, void * p_context)
 {
-# 132 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 132 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
     __NVIC_SetPriority(irq, priority);
 
 
 
     R_FSP_IsrContextSet(irq, p_context);
 }
-# 147 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 147 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 147 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 147 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 147 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 147 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void R_BSP_IrqEnableNoClear (IRQn_Type const irq)
 {
 
@@ -70055,22 +70030,22 @@ static inline
     uint32_t _irq = (uint32_t) irq;
 
     
-# 153 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 153 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
    __asm volatile("":::"memory")
-# 153 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 153 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                        ;
     ((NVIC_Type *) ((0xE000E000UL) + 0x0100UL) )->ISER[(_irq >> 5UL)] = (uint32_t) (1UL << (_irq & 0x1FUL));
     
-# 155 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 155 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
    __asm volatile("":::"memory")
-# 155 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 155 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                        ;
 }
-# 166 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 166 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 166 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 166 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 166 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 166 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void R_BSP_IrqEnable (IRQn_Type const irq)
 {
 
@@ -70079,11 +70054,11 @@ static inline
 
     R_BSP_IrqEnableNoClear(irq);
 }
-# 183 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 183 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 183 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 183 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 183 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 183 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void R_BSP_IrqDisable (IRQn_Type const irq)
 {
 
@@ -70094,28 +70069,28 @@ static inline
     __DSB();
     __ISB();
 }
-# 203 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 203 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 
-# 203 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
+# 203 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h" 3
 static inline 
-# 203 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 203 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
                void R_BSP_IrqCfgEnable (IRQn_Type const irq, uint32_t priority, void * p_context)
 {
     R_BSP_IrqCfg(irq, priority, p_context);
     R_BSP_IrqEnable(irq);
 }
-# 231 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
+# 231 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_irq.h"
 void bsp_irq_cfg(void);
 
 
 
 
 
-# 55 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h" 1
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 55 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h" 1
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
 
-# 38 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 38 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
 typedef enum e_bsp_io_level
 {
     BSP_IO_LEVEL_LOW = 0,
@@ -70413,21 +70388,21 @@ typedef enum e_bsp_io_port_pin_t
 
 
 extern volatile uint32_t g_protect_pfswe_counter;
-# 347 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 347 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
 
-# 347 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
+# 347 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
 static inline 
-# 347 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 347 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
                uint32_t R_BSP_PinRead (bsp_io_port_pin_t pin)
 {
 
     return ((R_PFS_Type *) (0x40400800UL + 0U))->PORT[pin >> 8].PIN[pin & (0xFF)].PmnPFS_b.PIDR;
 }
-# 360 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 360 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
 
-# 360 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
+# 360 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
 static inline 
-# 360 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 360 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
                void R_BSP_PinWrite (bsp_io_port_pin_t pin, bsp_io_level_t level)
 {
 
@@ -70442,11 +70417,11 @@ static inline
     ((R_PFS_Type *) (0x40400800UL + 0U))->PORT[pin >> 8].PIN[pin & (0xFF)].PmnPFS = ((4U) | lvl);
 
 }
-# 382 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 382 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
 
-# 382 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
+# 382 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
 static inline 
-# 382 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 382 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
                void R_BSP_PinCfg (bsp_io_port_pin_t pin, uint32_t cfg)
 {
 
@@ -70462,9 +70437,9 @@ static inline
 
 
 
-# 396 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
+# 396 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
 static inline 
-# 396 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 396 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
                void R_BSP_PinAccessEnable (void)
 {
 
@@ -70498,9 +70473,9 @@ static inline
 
 
 
-# 428 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
+# 428 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h" 3
 static inline 
-# 428 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_io.h"
+# 428 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_io.h"
                void R_BSP_PinAccessDisable (void)
 {
 
@@ -70537,22 +70512,22 @@ static inline
 
 
 
-# 56 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h" 1
-# 11 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h"
+# 56 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h" 1
+# 11 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h"
 
-# 51 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h"
+# 51 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h"
 typedef void (* bsp_grp_irq_cb_t)(bsp_grp_irq_t irq);
-# 64 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h"
+# 64 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_group_irq.h"
 void bsp_group_interrupt_open(void);
 
 
 
-# 57 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h" 1
-# 17 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 57 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h" 1
+# 17 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
 
-# 565 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 565 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
 typedef enum e_cgc_pll_mul
 {
     CGC_PLL_MUL_4_0 = ((((4U) -1U) << 2UL) | ((0U) == 50U ? 3U : ((0U) / 33UL))),
@@ -71702,29 +71677,29 @@ typedef enum e_cgc_pll_mul
     CGC_PLL_MUL_732_0 = ((((732U) -1U) << 2UL) | ((0U) == 50U ? 3U : ((0U) / 33UL))),
     CGC_PLL_MUL_781_0 = ((((781U) -1U) << 2UL) | ((0U) == 50U ? 3U : ((0U) / 33UL))),
 } cgc_pll_mul_t;
-# 1724 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 1724 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
 void bsp_clock_init(void);
-# 1740 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 1740 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
 void bsp_prv_operating_mode_set(uint8_t operating_mode);
-# 1750 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 1750 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
 void bsp_prv_prepare_pll(uint32_t clock, uint32_t const * const p_pll_hz);
 
 
 void bsp_prv_clock_set(uint32_t clock, uint32_t sckdivcr, uint16_t sckdivcr2);
-# 1763 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 1763 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
 void R_BSP_Init_RTC(void);
-# 1773 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 1773 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
 
-# 1773 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h" 3 4
+# 1773 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h" 3 4
 _Bool 
-# 1773 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 1773 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
     bsp_prv_clock_prepare_pre_sleep(void);
 void bsp_prv_clock_prepare_post_sleep(
-# 1774 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h" 3 4
+# 1774 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h" 3 4
                                      _Bool 
-# 1774 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 1774 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
                                           cpuclk_slowed);
-# 1786 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
+# 1786 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_clocks.h"
 void bsp_prv_clear_pfb(void);
 void bsp_prv_set_pfb(void);
 
@@ -71732,28 +71707,28 @@ void bsp_prv_set_pfb(void);
 
 
 
-# 58 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h" 1
-# 11 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h"
+# 58 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h" 1
+# 11 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h"
 
-# 387 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h"
+# 387 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_module_stop.h"
 
-# 59 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_security.h" 1
-# 11 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_security.h"
+# 59 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_security.h" 1
+# 11 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_security.h"
 
-# 28 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_security.h"
+# 28 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_security.h"
 void R_BSP_NonSecureEnter(void);
 
 
 
-# 60 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
+# 60 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_features.h" 1
-# 16 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_features.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_features.h" 1
+# 16 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_features.h"
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h" 1 3 4
-# 17 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_features.h" 2
+# 17 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_features.h" 2
 
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/assert.h" 1 3
 # 39 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/assert.h" 3
@@ -71763,23 +71738,23 @@ void __assert (const char *, int, const char *)
      __attribute__ ((__noreturn__));
 void __assert_func (const char *, int, const char *, const char *)
      __attribute__ ((__noreturn__));
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_features.h" 2
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_features.h" 2
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/fsp_common_api.h" 1
-# 22 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_features.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h" 1
-# 23 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_features.h" 2
-# 34 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_features.h"
-
-
-
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/fsp_common_api.h" 1
+# 22 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_features.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_compiler_support.h" 1
+# 23 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_features.h" 2
+# 34 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_features.h"
 
 
 
 
 
-# 41 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/fsp_features.h"
+
+
+
+# 41 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/fsp_features.h"
 typedef enum e_fsp_ip
 {
     FSP_IP_CFLASH = 0,
@@ -72035,27 +72010,27 @@ typedef void (* fsp_vector_t)(void);
 
 
 
-# 63 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
+# 63 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_delay.h" 1
-# 15 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_delay.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_delay.h" 1
+# 15 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_delay.h"
 
-# 56 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_delay.h"
+# 56 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_delay.h"
 typedef enum
 {
     BSP_DELAY_UNITS_SECONDS = 1000000,
     BSP_DELAY_UNITS_MILLISECONDS = 1000,
     BSP_DELAY_UNITS_MICROSECONDS = 1
 } bsp_delay_units_t;
-# 72 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_delay.h"
+# 72 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_delay.h"
 __attribute__((naked)) void bsp_prv_software_delay_loop(uint32_t loop_cnt);
 
 
 
-# 66 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h" 1
-# 11 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h"
+# 66 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h" 1
+# 11 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h"
 
 
 
@@ -72063,9 +72038,9 @@ __attribute__((naked)) void bsp_prv_software_delay_loop(uint32_t loop_cnt);
 
 
 
-# 1 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\Debug/bsp_linker_info.h" 1
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h" 2
-# 29 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h"
+# 1 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\Debug/bsp_linker_info.h" 1
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h" 2
+# 29 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h"
 typedef struct st_bsp_event_info
 {
     IRQn_Type irq;
@@ -72106,7 +72081,7 @@ typedef struct st_bsp_octaclk_settings
     bsp_clocks_source_t source_clock;
     bsp_clocks_octaclk_div_t divider;
 } bsp_octaclk_settings_t;
-# 78 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h"
+# 78 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/src/bsp/mcu/all/bsp_mcu_api.h"
 void R_BSP_RegisterProtectEnable(bsp_reg_protect_t regs_to_protect);
 void R_BSP_RegisterProtectDisable(bsp_reg_protect_t regs_to_unprotect);
 fsp_err_t R_BSP_GroupIrqWrite(bsp_grp_irq_t irq, void (* p_callback)(bsp_grp_irq_t irq));
@@ -72115,35 +72090,35 @@ void R_BSP_SoftwareDelay(uint32_t delay, bsp_delay_units_t units);
 
 
 
-# 67 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 2
-# 75 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h"
+# 67 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 2
+# 75 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h"
 
-# 94 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h"
+# 94 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h"
 fsp_err_t R_FSP_VersionGet(fsp_pack_version_t * const p_version);
 
 
 
 
 
-# 6 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/common_data.h" 1
+# 6 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/hal_data.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/common_data.h" 1
 
 
 
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ioport.h" 1
-# 21 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ioport.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_ioport.h" 1
+# 21 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_ioport.h"
 
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_ioport_api.h" 1
-# 28 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_ioport_api.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/bsp_api.h" 1
-# 29 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_ioport_api.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_ioport_api.h" 1
+# 28 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_ioport_api.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/bsp_api.h" 1
+# 29 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_ioport_api.h" 2
 
 
 
-# 43 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_ioport_api.h"
+# 43 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_ioport_api.h"
 typedef uint16_t ioport_size_t;
 
 
@@ -72230,7 +72205,7 @@ typedef struct st_ioport_api
 
 
     fsp_err_t (* pinWrite)(ioport_ctrl_t * const p_ctrl, bsp_io_port_pin_t pin, bsp_io_level_t level);
-# 137 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_ioport_api.h"
+# 137 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_ioport_api.h"
     fsp_err_t (* portDirectionSet)(ioport_ctrl_t * const p_ctrl, bsp_io_port_t port, ioport_size_t direction_values,
                                    ioport_size_t mask);
 
@@ -72241,7 +72216,7 @@ typedef struct st_ioport_api
 
 
     fsp_err_t (* portEventInputRead)(ioport_ctrl_t * const p_ctrl, bsp_io_port_t port, ioport_size_t * p_event_data);
-# 156 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_ioport_api.h"
+# 156 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_ioport_api.h"
     fsp_err_t (* portEventOutputWrite)(ioport_ctrl_t * const p_ctrl, bsp_io_port_t port, ioport_size_t event_data,
                                        ioport_size_t mask_value);
 
@@ -72252,7 +72227,7 @@ typedef struct st_ioport_api
 
 
     fsp_err_t (* portRead)(ioport_ctrl_t * const p_ctrl, bsp_io_port_t port, ioport_size_t * p_port_value);
-# 174 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_ioport_api.h"
+# 174 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_ioport_api.h"
     fsp_err_t (* portWrite)(ioport_ctrl_t * const p_ctrl, bsp_io_port_t port, ioport_size_t value, ioport_size_t mask);
 } ioport_api_t;
 
@@ -72266,11 +72241,11 @@ typedef struct st_ioport_instance
 
 
 
-# 24 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ioport.h" 2
+# 24 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_ioport.h" 2
 
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/r_ioport_cfg.h" 1
-# 26 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ioport.h" 2
-# 41 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ioport.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/r_ioport_cfg.h" 1
+# 26 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_ioport.h" 2
+# 41 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_ioport.h"
 typedef struct st_ioport_instance_ctrl
 {
     uint32_t open;
@@ -72536,7 +72511,7 @@ typedef enum e_ioport_port_pin_t
     IOPORT_PORT_14_PIN_14 = 0x0E0E,
     IOPORT_PORT_14_PIN_15 = 0x0E0F,
 } ioport_port_pin_t;
-# 462 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ioport.h"
+# 462 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_ioport.h"
 typedef enum e_ioport_cfg_options
 {
     IOPORT_CFG_PORT_DIRECTION_INPUT = 0x00000000,
@@ -72617,8 +72592,8 @@ fsp_err_t R_IOPORT_PortWrite(ioport_ctrl_t * const p_ctrl, bsp_io_port_t port, i
 
 
 
-# 7 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/common_data.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/bsp/bsp_pin_cfg.h" 1
+# 7 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/common_data.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/bsp/bsp_pin_cfg.h" 1
 
 
 
@@ -72633,7 +72608,7 @@ void BSP_PinConfigSecurityInit();
 
 
 
-# 8 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/common_data.h" 2
+# 8 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/common_data.h" 2
 
 
 
@@ -72646,15 +72621,15 @@ extern const ioport_instance_t g_ioport;
 extern ioport_instance_ctrl_t g_ioport_ctrl;
 void g_common_init(void);
 
-# 7 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_sci_b_uart.h" 1
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_sci_b_uart.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_uart_api.h" 1
-# 34 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_uart_api.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h" 1
-# 31 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 7 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/hal_data.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_spi_b.h" 1
+# 18 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_spi_b.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_spi_api.h" 1
+# 28 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_spi_api.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h" 1
+# 31 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
 
-# 51 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 51 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
 typedef void transfer_ctrl_t;
 
 
@@ -72686,7 +72661,7 @@ typedef enum e_transfer_mode
 
     TRANSFER_MODE_REPEAT_BLOCK = 3
 } transfer_mode_t;
-# 90 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 90 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
 typedef enum e_transfer_size
 {
     TRANSFER_SIZE_1_BYTE = 0,
@@ -72714,7 +72689,7 @@ typedef enum e_transfer_addr_mode
 
     TRANSFER_ADDR_MODE_DECREMENTED = 3
 } transfer_addr_mode_t;
-# 125 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 125 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
 typedef enum e_transfer_repeat_area
 {
 
@@ -72780,7 +72755,7 @@ typedef struct st_transfer_properties
     uint32_t transfer_length_max;
     uint32_t transfer_length_remaining;
 } transfer_properties_t;
-# 201 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 201 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
 typedef struct st_transfer_info
 {
     union
@@ -72870,7 +72845,7 @@ typedef struct st_transfer_api
 
 
     fsp_err_t (* reconfigure)(transfer_ctrl_t * const p_ctrl, transfer_info_t * p_info);
-# 301 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 301 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
     fsp_err_t (* reset)(transfer_ctrl_t * const p_ctrl, void const * p_src, void * p_dest,
                         uint16_t const num_transfers);
 
@@ -72880,11 +72855,11 @@ typedef struct st_transfer_api
 
 
     fsp_err_t (* enable)(transfer_ctrl_t * const p_ctrl);
-# 318 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 318 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
     fsp_err_t (* disable)(transfer_ctrl_t * const p_ctrl);
-# 327 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 327 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
     fsp_err_t (* softwareStart)(transfer_ctrl_t * const p_ctrl, transfer_start_mode_t mode);
-# 336 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 336 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
     fsp_err_t (* softwareStop)(transfer_ctrl_t * const p_ctrl);
 
 
@@ -72899,10 +72874,10 @@ typedef struct st_transfer_api
 
 
     fsp_err_t (* close)(transfer_ctrl_t * const p_ctrl);
-# 359 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 359 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
     fsp_err_t (* reload)(transfer_ctrl_t * const p_ctrl, void const * p_src, void * p_dest,
                          uint32_t const num_transfers);
-# 370 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h"
+# 370 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_transfer_api.h"
     fsp_err_t (* callbackSet)(transfer_ctrl_t * const p_ctrl, void (* p_callback)(transfer_callback_args_t *),
                               void * const p_context, transfer_callback_args_t * const p_callback_memory);
 } transfer_api_t;
@@ -72917,1123 +72892,11 @@ typedef struct st_transfer_instance
 
 
 
-# 35 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_uart_api.h" 2
+# 29 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_spi_api.h" 2
 
 
 
-# 49 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_uart_api.h"
-typedef enum e_sf_event
-{
-    UART_EVENT_RX_COMPLETE = (1UL << 0),
-    UART_EVENT_TX_COMPLETE = (1UL << 1),
-    UART_EVENT_RX_CHAR = (1UL << 2),
-    UART_EVENT_ERR_PARITY = (1UL << 3),
-    UART_EVENT_ERR_FRAMING = (1UL << 4),
-    UART_EVENT_ERR_OVERFLOW = (1UL << 5),
-    UART_EVENT_BREAK_DETECT = (1UL << 6),
-    UART_EVENT_TX_DATA_EMPTY = (1UL << 7),
-} uart_event_t;
-
-
-
-
-typedef enum e_uart_data_bits
-{
-    UART_DATA_BITS_9 = 0U,
-    UART_DATA_BITS_8 = 2U,
-    UART_DATA_BITS_7 = 3U,
-} uart_data_bits_t;
-
-
-
-
-typedef enum e_uart_parity
-{
-    UART_PARITY_OFF = 0U,
-    UART_PARITY_ZERO = 1U,
-    UART_PARITY_EVEN = 2U,
-    UART_PARITY_ODD = 3U,
-} uart_parity_t;
-
-
-
-typedef enum e_uart_stop_bits
-{
-    UART_STOP_BITS_1 = 0U,
-    UART_STOP_BITS_2 = 1U,
-} uart_stop_bits_t;
-
-
-typedef enum e_uart_dir
-{
-    UART_DIR_RX_TX = 3U,
-    UART_DIR_RX = 1U,
-    UART_DIR_TX = 2U,
-} uart_dir_t;
-
-
-typedef struct st_uart_info
-{
-
-    uint32_t write_bytes_max;
-
-
-    uint32_t read_bytes_max;
-} uart_info_t;
-
-
-typedef struct st_uart_callback_arg
-{
-    uint32_t channel;
-    uart_event_t event;
-
-
-
-    uint32_t data;
-    void * p_context;
-} uart_callback_args_t;
-
-
-typedef struct st_uart_cfg
-{
-
-    uint8_t channel;
-    uart_data_bits_t data_bits;
-    uart_parity_t parity;
-    uart_stop_bits_t stop_bits;
-    uint8_t rxi_ipl;
-    IRQn_Type rxi_irq;
-    uint8_t txi_ipl;
-    IRQn_Type txi_irq;
-    uint8_t tei_ipl;
-    IRQn_Type tei_irq;
-    uint8_t eri_ipl;
-    IRQn_Type eri_irq;
-
-
-
-    transfer_instance_t const * p_transfer_rx;
-
-
-
-    transfer_instance_t const * p_transfer_tx;
-
-
-    void (* p_callback)(uart_callback_args_t * p_args);
-    void * p_context;
-
-
-    void const * p_extend;
-} uart_cfg_t;
-
-
-
-typedef void uart_ctrl_t;
-
-
-typedef struct st_uart_api
-{
-
-
-
-
-
-
-    fsp_err_t (* open)(uart_ctrl_t * const p_ctrl, uart_cfg_t const * const p_cfg);
-# 177 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_uart_api.h"
-    fsp_err_t (* read)(uart_ctrl_t * const p_ctrl, uint8_t * const p_dest, uint32_t const bytes);
-# 188 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_uart_api.h"
-    fsp_err_t (* write)(uart_ctrl_t * const p_ctrl, uint8_t const * const p_src, uint32_t const bytes);
-# 198 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_uart_api.h"
-    fsp_err_t (* baudSet)(uart_ctrl_t * const p_ctrl, void const * const p_baudrate_info);
-
-
-
-
-
-
-    fsp_err_t (* infoGet)(uart_ctrl_t * const p_ctrl, uart_info_t * const p_info);
-
-
-
-
-
-
-
-    fsp_err_t (* communicationAbort)(uart_ctrl_t * const p_ctrl, uart_dir_t communication_to_abort);
-# 224 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_uart_api.h"
-    fsp_err_t (* callbackSet)(uart_ctrl_t * const p_ctrl, void (* p_callback)(uart_callback_args_t *),
-                              void * const p_context, uart_callback_args_t * const p_callback_memory);
-
-
-
-
-
-    fsp_err_t (* close)(uart_ctrl_t * const p_ctrl);
-
-
-
-
-
-
-    fsp_err_t (* readStop)(uart_ctrl_t * const p_ctrl, uint32_t * remaining_bytes);
-
-
-
-
-
-    fsp_err_t (* receiveSuspend)(uart_ctrl_t * const p_ctrl);
-
-
-
-
-
-    fsp_err_t (* receiveResume)(uart_ctrl_t * const p_ctrl);
-} uart_api_t;
-
-
-typedef struct st_uart_instance
-{
-    uart_ctrl_t * p_ctrl;
-    uart_cfg_t const * p_cfg;
-    uart_api_t const * p_api;
-} uart_instance_t;
-
-
-
-
-
-# 20 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_sci_b_uart.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/r_sci_b_uart_cfg.h" 1
-# 21 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_sci_b_uart.h" 2
-
-
-
-# 34 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_sci_b_uart.h"
-typedef enum e_sci_b_clk_src
-{
-    SCI_B_UART_CLOCK_INT,
-    SCI_B_UART_CLOCK_INT_WITH_BAUDRATE_OUTPUT,
-    SCI_B_UART_CLOCK_EXT8X,
-    SCI_B_UART_CLOCK_EXT16X
-} sci_b_clk_src_t;
-
-
-typedef enum e_sci_b_uart_flow_control
-{
-    SCI_B_UART_FLOW_CONTROL_RTS = 0U,
-    SCI_B_UART_FLOW_CONTROL_CTS = 1U,
-    SCI_B_UART_FLOW_CONTROL_HARDWARE_CTSRTS = 3U,
-    SCI_B_UART_FLOW_CONTROL_CTSRTS = 5U,
-} sci_b_uart_flow_control_t;
-
-
-typedef struct st_sci_b_uart_instance_ctrl
-{
-
-    uint8_t fifo_depth;
-    uint8_t rx_transfer_in_progress;
-    uint8_t data_bytes : 2;
-    uint8_t bitrate_modulation : 1;
-    uint32_t open;
-    uint32_t delay_loops;
-
-    bsp_io_port_pin_t flow_pin;
-
-
-    uint8_t const * p_tx_src;
-
-
-    uint32_t tx_src_bytes;
-
-
-    uint8_t const * p_rx_dest;
-
-
-    uint32_t rx_dest_bytes;
-
-
-    uart_cfg_t const * p_cfg;
-
-
-    R_SCI_B0_Type * p_reg;
-
-    void (* p_callback)(uart_callback_args_t *);
-    uart_callback_args_t * p_callback_memory;
-
-
-    void * p_context;
-} sci_b_uart_instance_ctrl_t;
-
-
-typedef enum e_sci_b_uart_rx_fifo_trigger
-{
-    SCI_B_UART_RX_FIFO_TRIGGER_1 = 0x1,
-    SCI_B_UART_RX_FIFO_TRIGGER_2 = 0x2,
-    SCI_B_UART_RX_FIFO_TRIGGER_3 = 0x3,
-    SCI_B_UART_RX_FIFO_TRIGGER_4 = 0x4,
-    SCI_B_UART_RX_FIFO_TRIGGER_5 = 0x5,
-    SCI_B_UART_RX_FIFO_TRIGGER_6 = 0x6,
-    SCI_B_UART_RX_FIFO_TRIGGER_7 = 0x7,
-    SCI_B_UART_RX_FIFO_TRIGGER_8 = 0x8,
-    SCI_B_UART_RX_FIFO_TRIGGER_9 = 0x9,
-    SCI_B_UART_RX_FIFO_TRIGGER_10 = 0xA,
-    SCI_B_UART_RX_FIFO_TRIGGER_11 = 0xB,
-    SCI_B_UART_RX_FIFO_TRIGGER_12 = 0xC,
-    SCI_B_UART_RX_FIFO_TRIGGER_13 = 0xD,
-    SCI_B_UART_RX_FIFO_TRIGGER_14 = 0xE,
-    SCI_B_UART_RX_FIFO_TRIGGER_MAX = 0xF,
-} sci_b_uart_rx_fifo_trigger_t;
-
-
-typedef enum e_sci_b_uart_start_bit_detect
-{
-    SCI_B_UART_START_BIT_LOW_LEVEL = 0x0,
-    SCI_B_UART_START_BIT_FALLING_EDGE = 0x1,
-} sci_b_uart_start_bit_detect_t;
-
-
-typedef enum e_sci_b_uart_noise_cancellation
-{
-    SCI_B_UART_NOISE_CANCELLATION_DISABLE = 0x0,
-    SCI_B_UART_NOISE_CANCELLATION_ENABLE = 0x1,
-} sci_b_uart_noise_cancellation_t;
-
-
-typedef enum e_sci_b_uart_rs485_enable
-{
-    SCI_B_UART_RS485_DISABLE = 0,
-    SCI_B_UART_RS485_ENABLE = 1,
-} sci_b_uart_rs485_enable_t;
-
-
-typedef enum e_sci_b_uart_rs485_de_polarity
-{
-    SCI_B_UART_RS485_DE_POLARITY_HIGH = 0,
-    SCI_B_UART_RS485_DE_POLARITY_LOW = 1,
-} sci_b_uart_rs485_de_polarity_t;
-
-
-typedef struct st_sci_b_baud_setting_t
-{
-    union
-    {
-        uint32_t baudrate_bits;
-
-        struct
-        {
-            uint32_t : 3;
-            uint32_t : 1;
-            uint32_t bgdm : 1;
-            uint32_t abcs : 1;
-            uint32_t abcse : 1;
-            uint32_t : 1;
-            uint32_t brr : 8;
-            uint32_t brme : 1;
-            uint32_t : 3;
-            uint32_t cks : 2;
-            uint32_t : 2;
-            uint32_t mddr : 8;
-        } baudrate_bits_b;
-    };
-} sci_b_baud_setting_t;
-
-
-typedef struct st_sci_b_uart_rs485_setting
-{
-    sci_b_uart_rs485_enable_t enable;
-    sci_b_uart_rs485_de_polarity_t polarity;
-    uint8_t assertion_time : 5;
-    uint8_t negation_time : 5;
-} sci_b_uart_rs485_setting_t;
-
-
-typedef struct st_sci_b_uart_extended_cfg
-{
-    sci_b_clk_src_t clock;
-    sci_b_uart_start_bit_detect_t rx_edge_start;
-    sci_b_uart_noise_cancellation_t noise_cancel;
-    sci_b_baud_setting_t * p_baud_setting;
-    sci_b_uart_rx_fifo_trigger_t rx_fifo_trigger;
-    bsp_io_port_pin_t flow_control_pin;
-    sci_b_uart_flow_control_t flow_control;
-    sci_b_uart_rs485_setting_t rs485_setting;
-    uint8_t delay_cycles;
-} sci_b_uart_extended_cfg_t;
-
-
-
-
-
-
-
-extern const uart_api_t g_uart_on_sci_b;
-
-
-
-fsp_err_t R_SCI_B_UART_Open(uart_ctrl_t * const p_api_ctrl, uart_cfg_t const * const p_cfg);
-fsp_err_t R_SCI_B_UART_Read(uart_ctrl_t * const p_api_ctrl, uint8_t * const p_dest, uint32_t const bytes);
-fsp_err_t R_SCI_B_UART_Write(uart_ctrl_t * const p_api_ctrl, uint8_t const * const p_src, uint32_t const bytes);
-fsp_err_t R_SCI_B_UART_BaudSet(uart_ctrl_t * const p_api_ctrl, void const * const p_baud_setting);
-fsp_err_t R_SCI_B_UART_InfoGet(uart_ctrl_t * const p_api_ctrl, uart_info_t * const p_info);
-fsp_err_t R_SCI_B_UART_Close(uart_ctrl_t * const p_api_ctrl);
-fsp_err_t R_SCI_B_UART_Abort(uart_ctrl_t * const p_api_ctrl, uart_dir_t communication_to_abort);
-fsp_err_t R_SCI_B_UART_BaudCalculate(uint32_t baudrate,
-                                     
-# 203 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_sci_b_uart.h" 3 4
-                                    _Bool 
-# 203 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_sci_b_uart.h"
-                                                                 bitrate_modulation,
-                                     uint32_t baud_rate_error_x_1000,
-                                     sci_b_baud_setting_t * const p_baud_setting);
-fsp_err_t R_SCI_B_UART_CallbackSet(uart_ctrl_t * const p_api_ctrl,
-                                   void ( * p_callback)(uart_callback_args_t *),
-                                   void * const p_context,
-                                   uart_callback_args_t * const p_callback_memory);
-fsp_err_t R_SCI_B_UART_ReadStop(uart_ctrl_t * const p_api_ctrl, uint32_t * remaining_bytes);
-fsp_err_t R_SCI_B_UART_ReceiveSuspend(uart_ctrl_t * const p_api_ctrl);
-fsp_err_t R_SCI_B_UART_ReceiveResume(uart_ctrl_t * const p_api_ctrl);
-
-
-
-
-
-
-
-# 8 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h" 2
-
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_dmac.h" 1
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_dmac.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_transfer_api.h" 1
-# 20 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_dmac.h" 2
-
-
-
-# 47 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_dmac.h"
-typedef transfer_callback_args_t dmac_callback_args_t;
-
-
-typedef struct st_dmac_instance_ctrl
-{
-    uint32_t open;
-
-    transfer_cfg_t const * p_cfg;
-
-
-    R_DMAC0_Type * p_reg;
-
-    void (* p_callback)(dmac_callback_args_t *);
-    dmac_callback_args_t * p_callback_memory;
-    void * p_context;
-} dmac_instance_ctrl_t;
-
-
-typedef struct st_dmac_extended_cfg
-{
-    uint8_t channel;
-    IRQn_Type irq;
-    uint8_t ipl;
-    int32_t offset;
-
-
-    uint16_t src_buffer_size;
-
-
-
-
-    elc_event_t activation_source;
-
-
-    void (* p_callback)(dmac_callback_args_t * cb_data);
-    dmac_callback_args_t * p_callback_memory;
-
-
-    void * p_context;
-} dmac_extended_cfg_t;
-
-
-
-
-
-
-
-extern const transfer_api_t g_transfer_on_dmac;
-
-
-
-
-
-
-fsp_err_t R_DMAC_Open(transfer_ctrl_t * const p_api_ctrl, transfer_cfg_t const * const p_cfg);
-fsp_err_t R_DMAC_Reconfigure(transfer_ctrl_t * const p_api_ctrl, transfer_info_t * p_info);
-fsp_err_t R_DMAC_Reset(transfer_ctrl_t * const p_api_ctrl,
-                       void const * volatile p_src,
-                       void * volatile p_dest,
-                       uint16_t const num_transfers);
-fsp_err_t R_DMAC_SoftwareStart(transfer_ctrl_t * const p_api_ctrl, transfer_start_mode_t mode);
-fsp_err_t R_DMAC_SoftwareStop(transfer_ctrl_t * const p_api_ctrl);
-fsp_err_t R_DMAC_Enable(transfer_ctrl_t * const p_api_ctrl);
-fsp_err_t R_DMAC_Disable(transfer_ctrl_t * const p_api_ctrl);
-fsp_err_t R_DMAC_InfoGet(transfer_ctrl_t * const p_api_ctrl, transfer_properties_t * const p_info);
-fsp_err_t R_DMAC_Reload(transfer_ctrl_t * const p_api_ctrl,
-                        void const * p_src,
-                        void * p_dest,
-                        uint32_t const num_transfers);
-fsp_err_t R_DMAC_Close(transfer_ctrl_t * const p_api_ctrl);
-fsp_err_t R_DMAC_BlockReset(transfer_ctrl_t * const p_ctrl,
-                            void const * volatile p_src,
-                            void * volatile p_dest,
-                            uint16_t const length,
-                            transfer_size_t size,
-                            uint16_t const num_transfers);
-fsp_err_t R_DMAC_CallbackSet(transfer_ctrl_t * const p_api_ctrl,
-                             void ( * p_callback)(dmac_callback_args_t *),
-                             void * const p_context,
-                             dmac_callback_args_t * const p_callback_memory);
-
-
-
-# 10 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h" 2
-
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h" 1
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/r_ospi_b_cfg.h" 1
-# 20 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h" 1
-# 28 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h"
-
-# 41 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h"
-typedef enum e_spi_flash_read_mode
-{
-    SPI_FLASH_READ_MODE_STANDARD = 0,
-    SPI_FLASH_READ_MODE_FAST_READ = 1,
-    SPI_FLASH_READ_MODE_FAST_READ_DUAL_OUTPUT = 2,
-    SPI_FLASH_READ_MODE_FAST_READ_DUAL_IO = 3,
-    SPI_FLASH_READ_MODE_FAST_READ_QUAD_OUTPUT = 4,
-    SPI_FLASH_READ_MODE_FAST_READ_QUAD_IO = 5,
-} spi_flash_read_mode_t;
-
-
-typedef enum e_spi_flash_protocol
-{
-
-    SPI_FLASH_PROTOCOL_EXTENDED_SPI = 0x000,
-
-
-    SPI_FLASH_PROTOCOL_QPI = 0x002,
-
-
-    SPI_FLASH_PROTOCOL_SOPI = 0x003,
-
-
-    SPI_FLASH_PROTOCOL_DOPI = 0x004,
-
-
-    SPI_FLASH_PROTOCOL_1S_1S_1S = 0x000,
-
-
-    SPI_FLASH_PROTOCOL_4S_4D_4D = 0x3B2,
-
-
-    SPI_FLASH_PROTOCOL_8D_8D_8D = 0x3FF,
-
-
-    SPI_FLASH_PROTOCOL_8D_8D_8S = 0x2FF,
-
-
-    SPI_FLASH_PROTOCOL_1S_2S_2S = 0x048,
-
-
-    SPI_FLASH_PROTOCOL_2S_2S_2S = 0x049,
-
-
-    SPI_FLASH_PROTOCOL_1S_1S_4S = 0x080,
-
-
-    SPI_FLASH_PROTOCOL_1S_4S_4S = 0x090,
-
-
-    SPI_FLASH_PROTOCOL_4S_4S_4S = 0x092
-} spi_flash_protocol_t;
-
-
-
-
-typedef enum e_spi_flash_address_bytes
-{
-    SPI_FLASH_ADDRESS_BYTES_1 = 0,
-    SPI_FLASH_ADDRESS_BYTES_2 = 1,
-    SPI_FLASH_ADDRESS_BYTES_3 = 2,
-    SPI_FLASH_ADDRESS_BYTES_4 = 3,
-
-
-    SPI_FLASH_ADDRESS_BYTES_4_4BYTE_READ_CODE = 0x13,
-} spi_flash_address_bytes_t;
-
-
-
-typedef enum e_spi_flash_data_lines
-{
-    SPI_FLASH_DATA_LINES_1 = 0,
-    SPI_FLASH_DATA_LINES_2 = 1,
-    SPI_FLASH_DATA_LINES_4 = 2,
-} spi_flash_data_lines_t;
-
-
-typedef enum e_spi_flash_dummy_clocks
-{
-    SPI_FLASH_DUMMY_CLOCKS_0 = 0,
-    SPI_FLASH_DUMMY_CLOCKS_1,
-    SPI_FLASH_DUMMY_CLOCKS_2,
-    SPI_FLASH_DUMMY_CLOCKS_3,
-    SPI_FLASH_DUMMY_CLOCKS_4,
-    SPI_FLASH_DUMMY_CLOCKS_5,
-    SPI_FLASH_DUMMY_CLOCKS_6,
-    SPI_FLASH_DUMMY_CLOCKS_7,
-    SPI_FLASH_DUMMY_CLOCKS_8,
-    SPI_FLASH_DUMMY_CLOCKS_9,
-    SPI_FLASH_DUMMY_CLOCKS_10,
-    SPI_FLASH_DUMMY_CLOCKS_11,
-    SPI_FLASH_DUMMY_CLOCKS_12,
-    SPI_FLASH_DUMMY_CLOCKS_13,
-    SPI_FLASH_DUMMY_CLOCKS_14,
-    SPI_FLASH_DUMMY_CLOCKS_15,
-    SPI_FLASH_DUMMY_CLOCKS_16,
-    SPI_FLASH_DUMMY_CLOCKS_17,
-    SPI_FLASH_DUMMY_CLOCKS_18,
-    SPI_FLASH_DUMMY_CLOCKS_19,
-    SPI_FLASH_DUMMY_CLOCKS_20,
-    SPI_FLASH_DUMMY_CLOCKS_21,
-    SPI_FLASH_DUMMY_CLOCKS_22,
-    SPI_FLASH_DUMMY_CLOCKS_23,
-    SPI_FLASH_DUMMY_CLOCKS_24,
-    SPI_FLASH_DUMMY_CLOCKS_25,
-    SPI_FLASH_DUMMY_CLOCKS_26,
-    SPI_FLASH_DUMMY_CLOCKS_27,
-    SPI_FLASH_DUMMY_CLOCKS_28,
-    SPI_FLASH_DUMMY_CLOCKS_29,
-    SPI_FLASH_DUMMY_CLOCKS_30,
-    SPI_FLASH_DUMMY_CLOCKS_31,
-    SPI_FLASH_DUMMY_CLOCKS_DEFAULT = 0xFF,
-} spi_flash_dummy_clocks_t;
-
-
-typedef enum e_spi_flash_direct_transfer_dir_option
-{
-    SPI_FLASH_DIRECT_TRANSFER_DIR_READ = 0x0,
-    SPI_FLASH_DIRECT_TRANSFER_DIR_WRITE = 0x1
-} spi_flash_direct_transfer_dir_t;
-
-
-typedef struct st_spi_flash_erase_command
-{
-    uint16_t command;
-    uint32_t size;
-} spi_flash_erase_command_t;
-
-
-typedef struct st_spi_flash_direct_transfer
-{
-    union
-    {
-        uint64_t data_u64;
-        uint32_t data;
-    };
-    uint32_t address;
-    uint16_t command;
-    uint8_t dummy_cycles;
-    uint8_t command_length;
-    uint8_t address_length;
-    uint8_t data_length;
-} spi_flash_direct_transfer_t;
-
-
-typedef struct st_spi_flash_cfg
-{
-    spi_flash_protocol_t spi_protocol;
-    spi_flash_read_mode_t read_mode;
-    spi_flash_address_bytes_t address_bytes;
-    spi_flash_dummy_clocks_t dummy_clocks;
-
-
-
-    spi_flash_data_lines_t page_program_address_lines;
-    uint8_t write_status_bit;
-    uint8_t write_enable_bit;
-    uint32_t page_size_bytes;
-    uint8_t page_program_command;
-    uint8_t write_enable_command;
-    uint8_t status_command;
-    uint8_t read_command;
-    uint8_t xip_enter_command;
-    uint8_t xip_exit_command;
-    uint8_t erase_command_list_length;
-    spi_flash_erase_command_t const * p_erase_command_list;
-    void const * p_extend;
-} spi_flash_cfg_t;
-
-
-
-typedef void spi_flash_ctrl_t;
-
-
-typedef struct st_spi_flash_status
-{
-
-
-    
-# 219 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h" 3 4
-   _Bool 
-# 219 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h"
-        write_in_progress;
-} spi_flash_status_t;
-
-
-typedef struct st_spi_flash_api
-{
-
-
-
-
-
-    fsp_err_t (* open)(spi_flash_ctrl_t * const p_ctrl, spi_flash_cfg_t const * const p_cfg);
-# 242 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h"
-    fsp_err_t (* directWrite)(spi_flash_ctrl_t * const p_ctrl, uint8_t const * const p_src, uint32_t const bytes,
-                              
-# 243 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h" 3 4
-                             _Bool 
-# 243 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h"
-                                  const read_after_write);
-
-
-
-
-
-
-
-    fsp_err_t (* directRead)(spi_flash_ctrl_t * const p_ctrl, uint8_t * const p_dest, uint32_t const bytes);
-
-
-
-
-
-
-
-    fsp_err_t (* directTransfer)(spi_flash_ctrl_t * const p_ctrl, spi_flash_direct_transfer_t * const p_transfer,
-                                 spi_flash_direct_transfer_dir_t direction);
-
-
-
-
-
-
-    fsp_err_t (* spiProtocolSet)(spi_flash_ctrl_t * const p_ctrl, spi_flash_protocol_t spi_protocol);
-# 276 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h"
-    fsp_err_t (* write)(spi_flash_ctrl_t * const p_ctrl, uint8_t const * const p_src, uint8_t * const p_dest,
-                        uint32_t byte_count);
-# 286 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_flash_api.h"
-    fsp_err_t (* erase)(spi_flash_ctrl_t * const p_ctrl, uint8_t * const p_device_address, uint32_t byte_count);
-
-
-
-
-
-
-    fsp_err_t (* statusGet)(spi_flash_ctrl_t * const p_ctrl, spi_flash_status_t * const p_status);
-
-
-
-
-
-    fsp_err_t (* xipEnter)(spi_flash_ctrl_t * const p_ctrl);
-
-
-
-
-
-    fsp_err_t (* xipExit)(spi_flash_ctrl_t * const p_ctrl);
-
-
-
-
-
-
-    fsp_err_t (* bankSet)(spi_flash_ctrl_t * const p_ctrl, uint32_t bank);
-
-
-
-
-
-    fsp_err_t (* autoCalibrate)(spi_flash_ctrl_t * const p_ctrl);
-
-
-
-
-
-    fsp_err_t (* close)(spi_flash_ctrl_t * const p_ctrl);
-} spi_flash_api_t;
-
-
-typedef struct st_spi_flash_instance
-{
-    spi_flash_ctrl_t * p_ctrl;
-    spi_flash_cfg_t const * p_cfg;
-    spi_flash_api_t const * p_api;
-} spi_flash_instance_t;
-
-
-
-# 21 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h" 2
-
-
-
-
-
-
-
-# 44 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h"
-typedef enum e_ospi_b_chip_select
-{
-    OSPI_B_DEVICE_NUMBER_0 = 0U,
-    OSPI_B_DEVICE_NUMBER_1,
-} ospi_b_device_number_t;
-
-
-typedef enum e_ospi_b_command_bytes
-{
-    OSPI_B_COMMAND_BYTES_1 = 1U,
-    OSPI_B_COMMAND_BYTES_2 = 2U,
-} ospi_b_command_bytes_t;
-
-
-typedef enum e_ospi_b_frame_interval_clocks
-{
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_1 = 0U,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_2,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_3,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_4,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_5,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_6,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_7,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_8,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_9,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_10,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_11,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_12,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_13,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_14,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_15,
-    OSPI_B_COMMAND_INTERVAL_CLOCKS_16,
-} ospi_b_command_interval_clocks_t;
-
-
-typedef enum e_ospi_b_cs_pullup_clocks
-{
-    OSPI_B_COMMAND_CS_PULLUP_CLOCKS_NO_EXTENSION = 0U,
-    OSPI_B_COMMAND_CS_PULLUP_CLOCKS_1,
-} ospi_b_command_cs_pullup_clocks_t;
-
-
-typedef enum e_ospi_b_cs_pulldown_clocks
-{
-    OSPI_B_COMMAND_CS_PULLDOWN_CLOCKS_NO_EXTENSION = 0U,
-    OSPI_B_COMMAND_CS_PULLDOWN_CLOCKS_1,
-} ospi_b_command_cs_pulldown_clocks_t;
-
-
-typedef enum e_ospi_b_ds_timing_delay
-{
-    OSPI_B_DS_TIMING_DELAY_NONE = 0,
-    OSPI_B_DS_TIMING_DELAY_1 = 1,
-    OSPI_B_DS_TIMING_DELAY_2 = 2,
-    OSPI_B_DS_TIMING_DELAY_3 = 3,
-    OSPI_B_DS_TIMING_DELAY_4 = 4,
-    OSPI_B_DS_TIMING_DELAY_5 = 5,
-    OSPI_B_DS_TIMING_DELAY_6 = 6,
-    OSPI_B_DS_TIMING_DELAY_7 = 7,
-    OSPI_B_DS_TIMING_DELAY_8 = 8,
-    OSPI_B_DS_TIMING_DELAY_9 = 9,
-    OSPI_B_DS_TIMING_DELAY_10 = 10,
-    OSPI_B_DS_TIMING_DELAY_11 = 11,
-    OSPI_B_DS_TIMING_DELAY_12 = 12,
-    OSPI_B_DS_TIMING_DELAY_13 = 13,
-    OSPI_B_DS_TIMING_DELAY_14 = 14,
-    OSPI_B_DS_TIMING_DELAY_15 = 15,
-    OSPI_B_DS_TIMING_DELAY_16 = 16,
-    OSPI_B_DS_TIMING_DELAY_17 = 17,
-    OSPI_B_DS_TIMING_DELAY_18 = 18,
-    OSPI_B_DS_TIMING_DELAY_19 = 19,
-    OSPI_B_DS_TIMING_DELAY_20 = 20,
-    OSPI_B_DS_TIMING_DELAY_21 = 21,
-    OSPI_B_DS_TIMING_DELAY_22 = 22,
-    OSPI_B_DS_TIMING_DELAY_23 = 23,
-    OSPI_B_DS_TIMING_DELAY_24 = 24,
-    OSPI_B_DS_TIMING_DELAY_25 = 25,
-    OSPI_B_DS_TIMING_DELAY_26 = 26,
-    OSPI_B_DS_TIMING_DELAY_27 = 27,
-    OSPI_B_DS_TIMING_DELAY_28 = 28,
-    OSPI_B_DS_TIMING_DELAY_29 = 29,
-    OSPI_B_DS_TIMING_DELAY_30 = 30,
-    OSPI_B_DS_TIMING_DELAY_31 = 31,
-} ospi_b_ds_timing_delay_t;
-
-
-typedef enum e_ospi_b_sdr_drive_timing
-{
-    OSPI_B_SDR_DRIVE_TIMING_BEFORE_CK = 0,
-    OSPI_B_SDR_DRIVE_TIMING_AT_CK = 1,
-} ospi_b_sdr_drive_timing_t;
-
-
-typedef enum e_ospi_b_ck_edge
-{
-    OSPI_B_CK_EDGE_FALLING = 0,
-    OSPI_B_CK_EDGE_RISING = 1,
-} ospi_b_ck_edge_t;
-
-
-typedef enum e_ospi_b_sdr_sampling_delay
-{
-    OSPI_B_SDR_SAMPLING_DELAY_NONE = 0,
-    OSPI_B_SDR_SAMPLING_DELAY_1 = 1,
-    OSPI_B_SDR_SAMPLING_DELAY_2 = 2,
-    OSPI_B_SDR_SAMPLING_DELAY_3 = 3,
-    OSPI_B_SDR_SAMPLING_DELAY_4 = 4,
-    OSPI_B_SDR_SAMPLING_DELAY_5 = 5,
-    OSPI_B_SDR_SAMPLING_DELAY_6 = 6,
-    OSPI_B_SDR_SAMPLING_DELAY_7 = 7,
-} ospi_b_sdr_sampling_delay_t;
-
-
-typedef enum e_ospi_b_ddr_sampling_extension
-{
-    OSPI_B_DDR_SAMPLING_EXTENSION_NONE = 0,
-    OSPI_B_DDR_SAMPLING_EXTENSION_1 = 1,
-    OSPI_B_DDR_SAMPLING_EXTENSION_2 = 2,
-    OSPI_B_DDR_SAMPLING_EXTENSION_3 = 3,
-    OSPI_B_DDR_SAMPLING_EXTENSION_4 = 4,
-    OSPI_B_DDR_SAMPLING_EXTENSION_5 = 5,
-    OSPI_B_DDR_SAMPLING_EXTENSION_6 = 6,
-    OSPI_B_DDR_SAMPLING_EXTENSION_7 = 7,
-} ospi_b_ddr_sampling_extension_t;
-
-
-typedef enum e_ospi_b_frame_format
-{
-    OSPI_B_FRAME_FORMAT_STANDARD = 0x0,
-    OSPI_B_FRAME_FORMAT_XSPI_PROFILE_1 = 0x1,
-    OSPI_B_FRAME_FORMAT_XSPI_PROFILE_2 = 0x2,
-    OSPI_B_FRAME_FORMAT_XSPI_PROFILE_2_EXTENDED = 0x3,
-} ospi_b_frame_format_t;
-
-
-typedef enum e_ospi_b_latency_mode
-{
-    OSPI_B_LATENCY_MODE_FIXED = 0,
-    OSPI_B_LATENCY_MODE_VARIABLE,
-} ospi_b_latency_mode_t;
-
-
-typedef enum e_ospi_b_prefetch_function
-{
-    OSPI_B_PREFETCH_FUNCTION_DISABLE = 0x00,
-    OSPI_B_PREFETCH_FUNCTION_ENABLE = 0x01,
-} ospi_b_prefetch_function_t;
-
-
-typedef enum e_ospi_b_combination_function
-{
-    OSPI_B_COMBINATION_FUNCTION_DISABLE = 0x00,
-    OSPI_B_COMBINATION_FUNCTION_4BYTE = 0x01,
-    OSPI_B_COMBINATION_FUNCTION_8BYTE = 0x03,
-    OSPI_B_COMBINATION_FUNCTION_12BYTE = 0x05,
-    OSPI_B_COMBINATION_FUNCTION_16BYTE = 0x07,
-    OSPI_B_COMBINATION_FUNCTION_20BYTE = 0x09,
-    OSPI_B_COMBINATION_FUNCTION_24BYTE = 0x0B,
-    OSPI_B_COMBINATION_FUNCTION_28BYTE = 0x0D,
-    OSPI_B_COMBINATION_FUNCTION_32BYTE = 0x0F,
-    OSPI_B_COMBINATION_FUNCTION_36BYTE = 0x11,
-    OSPI_B_COMBINATION_FUNCTION_40BYTE = 0x13,
-    OSPI_B_COMBINATION_FUNCTION_44BYTE = 0x15,
-    OSPI_B_COMBINATION_FUNCTION_48BYTE = 0x17,
-    OSPI_B_COMBINATION_FUNCTION_52BYTE = 0x19,
-    OSPI_B_COMBINATION_FUNCTION_56BYTE = 0x1B,
-    OSPI_B_COMBINATION_FUNCTION_60BYTE = 0x1D,
-    OSPI_B_COMBINATION_FUNCTION_64BYTE = 0x1F,
-    OSPI_B_COMBINATION_FUNCTION_2BYTE = 0x1FF,
-} ospi_b_combination_function_t;
-
-
-typedef struct st_ospi_b_table
-{
-    void * p_table;
-    uint8_t length;
-} ospi_b_table_t;
-
-
-typedef struct st_ospi_b_timing_setting
-{
-    ospi_b_command_interval_clocks_t command_to_command_interval;
-    ospi_b_command_cs_pullup_clocks_t cs_pullup_lag;
-    ospi_b_command_cs_pulldown_clocks_t cs_pulldown_lead;
-    ospi_b_sdr_drive_timing_t sdr_drive_timing;
-    ospi_b_ck_edge_t sdr_sampling_edge;
-    ospi_b_sdr_sampling_delay_t sdr_sampling_delay;
-    ospi_b_ddr_sampling_extension_t ddr_sampling_extension;
-} ospi_b_timing_setting_t;
-
-
-typedef struct st_ospi_b_xspi_command_set
-{
-    spi_flash_protocol_t protocol;
-    ospi_b_frame_format_t frame_format;
-    ospi_b_latency_mode_t latency_mode;
-    ospi_b_command_bytes_t command_bytes;
-    spi_flash_address_bytes_t address_bytes;
-
-    uint16_t read_command;
-    uint16_t program_command;
-    uint16_t write_enable_command;
-    uint16_t status_command;
-    uint16_t row_load_command;
-    uint16_t row_store_command;
-
-    uint8_t read_dummy_cycles;
-    uint8_t program_dummy_cycles;
-    uint8_t status_dummy_cycles;
-    uint8_t row_load_dummy_cycles;
-    uint8_t row_store_dummy_cycles;
-
-    uint8_t address_msb_mask;
-
-    
-# 258 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h" 3 4
-   _Bool 
-# 258 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h"
-            status_needs_address;
-    uint32_t status_address;
-    spi_flash_address_bytes_t status_address_bytes;
-
-    ospi_b_table_t const * p_erase_commands;
-} ospi_b_xspi_command_set_t;
-
-
-typedef enum e_ospi_b_dotf_aes_key_length_words
-{
-    OSPI_B_DOTF_AES_KEY_LENGTH_WORDS_128 = 16U,
-    OSPI_B_DOTF_AES_KEY_LENGTH_WORDS_192 = 24U,
-    OSPI_B_DOTF_AES_KEY_LENGTH_WORDS_256 = 32U
-} ospi_b_dotf_aes_key_length_words_t;
-
-
-typedef enum e_ospi_b_dotf_aes_key_type
-{
-    OSPI_B_DOTF_AES_KEY_TYPE_128 = 0U,
-    OSPI_B_DOTF_AES_KEY_TYPE_192 = 1U,
-    OSPI_B_DOTF_AES_KEY_TYPE_256 = 2U
-} ospi_b_dotf_aes_key_type_t;
-
-
-typedef enum e_ospi_b_dotf_key_format
-{
-    OSPI_B_DOTF_KEY_FORMAT_PLAINTEXT = 0U,
-    OSPI_B_DOTF_KEY_FORMAT_WRAPPED = 1U,
-} ospi_b_dotf_key_format_t;
-
-
-typedef struct st_ospi_b_dotf_cfg
-{
-    ospi_b_dotf_aes_key_type_t key_type;
-    ospi_b_dotf_key_format_t format;
-    uint32_t * p_start_addr;
-    uint32_t * p_end_addr;
-    uint32_t * p_key;
-    uint32_t * p_iv;
-} ospi_b_dotf_cfg_t;
-
-
-typedef struct st_ospi_b_extended_cfg
-{
-    uint8_t ospi_b_unit;
-    ospi_b_device_number_t channel;
-    ospi_b_timing_setting_t const * p_timing_settings;
-    ospi_b_table_t const * p_xspi_command_set;
-    ospi_b_ds_timing_delay_t data_latch_delay_clocks;
-    uint8_t * p_autocalibration_preamble_pattern_addr;
-
-    transfer_instance_t const * p_lower_lvl_transfer;
-
-
-
-
-
-
-
-} ospi_b_extended_cfg_t;
-
-
-typedef struct st_ospi_b_instance_ctrl
-{
-    spi_flash_cfg_t const * p_cfg;
-    uint32_t open;
-    spi_flash_protocol_t spi_protocol;
-    ospi_b_device_number_t channel;
-    uint8_t ospi_b_unit;
-    ospi_b_xspi_command_set_t const * p_cmd_set;
-    R_XSPI0_Type * p_reg;
-} ospi_b_instance_ctrl_t;
-
-
-
-
-
-
-
-extern const spi_flash_api_t g_ospi_b_on_spi_flash;
-
-
-
-fsp_err_t R_OSPI_B_Open(spi_flash_ctrl_t * const p_ctrl, spi_flash_cfg_t const * const p_cfg);
-fsp_err_t R_OSPI_B_Close(spi_flash_ctrl_t * const p_ctrl);
-fsp_err_t R_OSPI_B_DirectWrite(spi_flash_ctrl_t * const p_ctrl,
-                               uint8_t const * const p_src,
-                               uint32_t const bytes,
-                               
-# 346 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h" 3 4
-                              _Bool 
-# 346 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_ospi_b.h"
-                                   const read_after_write);
-fsp_err_t R_OSPI_B_DirectRead(spi_flash_ctrl_t * const p_ctrl, uint8_t * const p_dest, uint32_t const bytes);
-fsp_err_t R_OSPI_B_DirectTransfer(spi_flash_ctrl_t * const p_ctrl,
-                                  spi_flash_direct_transfer_t * const p_transfer,
-                                  spi_flash_direct_transfer_dir_t direction);
-fsp_err_t R_OSPI_B_SpiProtocolSet(spi_flash_ctrl_t * const p_ctrl, spi_flash_protocol_t spi_protocol);
-fsp_err_t R_OSPI_B_XipEnter(spi_flash_ctrl_t * const p_ctrl);
-fsp_err_t R_OSPI_B_XipExit(spi_flash_ctrl_t * const p_ctrl);
-fsp_err_t R_OSPI_B_Write(spi_flash_ctrl_t * const p_ctrl,
-                         uint8_t const * const p_src,
-                         uint8_t * const p_dest,
-                         uint32_t byte_count);
-fsp_err_t R_OSPI_B_Erase(spi_flash_ctrl_t * const p_ctrl, uint8_t * const p_device_address, uint32_t byte_count);
-fsp_err_t R_OSPI_B_StatusGet(spi_flash_ctrl_t * const p_ctrl, spi_flash_status_t * const p_status);
-fsp_err_t R_OSPI_B_BankSet(spi_flash_ctrl_t * const _ctrl, uint32_t bank);
-fsp_err_t R_OSPI_B_AutoCalibrate(spi_flash_ctrl_t * const p_ctrl);
-
-fsp_err_t R_OSPI_B_DOTF_Configure(spi_flash_ctrl_t * const p_ctrl, ospi_b_dotf_cfg_t * const p_dotf_cfg);
-
-fsp_err_t R_OSPI_B_RowLoad(spi_flash_ctrl_t * const p_ctrl, uint32_t row_index);
-fsp_err_t R_OSPI_B_RowStore(spi_flash_ctrl_t * const p_ctrl, uint32_t row_index);
-
-
-
-# 12 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h" 2
-
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_spi_b.h" 1
-# 18 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_spi_b.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_api.h" 1
-# 31 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_api.h"
-
-# 44 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_api.h"
+# 44 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_spi_api.h"
 typedef enum e_spi_bit_width
 {
     SPI_BIT_WIDTH_4_BITS = (3),
@@ -74185,16 +73048,16 @@ typedef struct st_spi_api
 
 
     fsp_err_t (* open)(spi_ctrl_t * p_ctrl, spi_cfg_t const * const p_cfg);
-# 206 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_api.h"
+# 206 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_spi_api.h"
     fsp_err_t (* read)(spi_ctrl_t * const p_ctrl, void * p_dest, uint32_t const length,
                        spi_bit_width_t const bit_width);
-# 218 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_api.h"
+# 218 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_spi_api.h"
     fsp_err_t (* write)(spi_ctrl_t * const p_ctrl, void const * p_src, uint32_t const length,
                         spi_bit_width_t const bit_width);
-# 232 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_api.h"
+# 232 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_spi_api.h"
     fsp_err_t (* writeRead)(spi_ctrl_t * const p_ctrl, void const * p_src, void * p_dest, uint32_t const length,
                             spi_bit_width_t const bit_width);
-# 244 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_spi_api.h"
+# 244 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_spi_api.h"
     fsp_err_t (* callbackSet)(spi_ctrl_t * const p_ctrl, void (* p_callback)(spi_callback_args_t *),
                               void * const p_context, spi_callback_args_t * const p_callback_memory);
 
@@ -74215,11 +73078,11 @@ typedef struct st_spi_instance
 
 
 
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_spi_b.h" 2
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_spi_b.h" 2
 
 
 
-# 32 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_spi_b.h"
+# 32 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_spi_b.h"
 typedef enum e_spi_b_ssl_mode
 {
     SPI_B_SSL_MODE_SPI,
@@ -74390,13 +73253,399 @@ fsp_err_t R_SPI_B_CallbackSet(spi_ctrl_t * const p_api_ctrl,
 
 
 
-# 14 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_rtc.h" 1
-# 19 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_rtc.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_cfg/fsp_cfg/r_rtc_cfg.h" 1
-# 20 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_rtc.h" 2
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 1
-# 32 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 8 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/hal_data.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_sci_b_uart.h" 1
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_sci_b_uart.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_uart_api.h" 1
+# 37 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_uart_api.h"
+
+# 49 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_uart_api.h"
+typedef enum e_sf_event
+{
+    UART_EVENT_RX_COMPLETE = (1UL << 0),
+    UART_EVENT_TX_COMPLETE = (1UL << 1),
+    UART_EVENT_RX_CHAR = (1UL << 2),
+    UART_EVENT_ERR_PARITY = (1UL << 3),
+    UART_EVENT_ERR_FRAMING = (1UL << 4),
+    UART_EVENT_ERR_OVERFLOW = (1UL << 5),
+    UART_EVENT_BREAK_DETECT = (1UL << 6),
+    UART_EVENT_TX_DATA_EMPTY = (1UL << 7),
+} uart_event_t;
+
+
+
+
+typedef enum e_uart_data_bits
+{
+    UART_DATA_BITS_9 = 0U,
+    UART_DATA_BITS_8 = 2U,
+    UART_DATA_BITS_7 = 3U,
+} uart_data_bits_t;
+
+
+
+
+typedef enum e_uart_parity
+{
+    UART_PARITY_OFF = 0U,
+    UART_PARITY_ZERO = 1U,
+    UART_PARITY_EVEN = 2U,
+    UART_PARITY_ODD = 3U,
+} uart_parity_t;
+
+
+
+typedef enum e_uart_stop_bits
+{
+    UART_STOP_BITS_1 = 0U,
+    UART_STOP_BITS_2 = 1U,
+} uart_stop_bits_t;
+
+
+typedef enum e_uart_dir
+{
+    UART_DIR_RX_TX = 3U,
+    UART_DIR_RX = 1U,
+    UART_DIR_TX = 2U,
+} uart_dir_t;
+
+
+typedef struct st_uart_info
+{
+
+    uint32_t write_bytes_max;
+
+
+    uint32_t read_bytes_max;
+} uart_info_t;
+
+
+typedef struct st_uart_callback_arg
+{
+    uint32_t channel;
+    uart_event_t event;
+
+
+
+    uint32_t data;
+    void * p_context;
+} uart_callback_args_t;
+
+
+typedef struct st_uart_cfg
+{
+
+    uint8_t channel;
+    uart_data_bits_t data_bits;
+    uart_parity_t parity;
+    uart_stop_bits_t stop_bits;
+    uint8_t rxi_ipl;
+    IRQn_Type rxi_irq;
+    uint8_t txi_ipl;
+    IRQn_Type txi_irq;
+    uint8_t tei_ipl;
+    IRQn_Type tei_irq;
+    uint8_t eri_ipl;
+    IRQn_Type eri_irq;
+
+
+
+    transfer_instance_t const * p_transfer_rx;
+
+
+
+    transfer_instance_t const * p_transfer_tx;
+
+
+    void (* p_callback)(uart_callback_args_t * p_args);
+    void * p_context;
+
+
+    void const * p_extend;
+} uart_cfg_t;
+
+
+
+typedef void uart_ctrl_t;
+
+
+typedef struct st_uart_api
+{
+
+
+
+
+
+
+    fsp_err_t (* open)(uart_ctrl_t * const p_ctrl, uart_cfg_t const * const p_cfg);
+# 177 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_uart_api.h"
+    fsp_err_t (* read)(uart_ctrl_t * const p_ctrl, uint8_t * const p_dest, uint32_t const bytes);
+# 188 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_uart_api.h"
+    fsp_err_t (* write)(uart_ctrl_t * const p_ctrl, uint8_t const * const p_src, uint32_t const bytes);
+# 198 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_uart_api.h"
+    fsp_err_t (* baudSet)(uart_ctrl_t * const p_ctrl, void const * const p_baudrate_info);
+
+
+
+
+
+
+    fsp_err_t (* infoGet)(uart_ctrl_t * const p_ctrl, uart_info_t * const p_info);
+
+
+
+
+
+
+
+    fsp_err_t (* communicationAbort)(uart_ctrl_t * const p_ctrl, uart_dir_t communication_to_abort);
+# 224 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_uart_api.h"
+    fsp_err_t (* callbackSet)(uart_ctrl_t * const p_ctrl, void (* p_callback)(uart_callback_args_t *),
+                              void * const p_context, uart_callback_args_t * const p_callback_memory);
+
+
+
+
+
+    fsp_err_t (* close)(uart_ctrl_t * const p_ctrl);
+
+
+
+
+
+
+    fsp_err_t (* readStop)(uart_ctrl_t * const p_ctrl, uint32_t * remaining_bytes);
+
+
+
+
+
+    fsp_err_t (* receiveSuspend)(uart_ctrl_t * const p_ctrl);
+
+
+
+
+
+    fsp_err_t (* receiveResume)(uart_ctrl_t * const p_ctrl);
+} uart_api_t;
+
+
+typedef struct st_uart_instance
+{
+    uart_ctrl_t * p_ctrl;
+    uart_cfg_t const * p_cfg;
+    uart_api_t const * p_api;
+} uart_instance_t;
+
+
+
+
+
+# 20 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_sci_b_uart.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/r_sci_b_uart_cfg.h" 1
+# 21 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_sci_b_uart.h" 2
+
+
+
+# 34 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_sci_b_uart.h"
+typedef enum e_sci_b_clk_src
+{
+    SCI_B_UART_CLOCK_INT,
+    SCI_B_UART_CLOCK_INT_WITH_BAUDRATE_OUTPUT,
+    SCI_B_UART_CLOCK_EXT8X,
+    SCI_B_UART_CLOCK_EXT16X
+} sci_b_clk_src_t;
+
+
+typedef enum e_sci_b_uart_flow_control
+{
+    SCI_B_UART_FLOW_CONTROL_RTS = 0U,
+    SCI_B_UART_FLOW_CONTROL_CTS = 1U,
+    SCI_B_UART_FLOW_CONTROL_HARDWARE_CTSRTS = 3U,
+    SCI_B_UART_FLOW_CONTROL_CTSRTS = 5U,
+} sci_b_uart_flow_control_t;
+
+
+typedef struct st_sci_b_uart_instance_ctrl
+{
+
+    uint8_t fifo_depth;
+    uint8_t rx_transfer_in_progress;
+    uint8_t data_bytes : 2;
+    uint8_t bitrate_modulation : 1;
+    uint32_t open;
+    uint32_t delay_loops;
+
+    bsp_io_port_pin_t flow_pin;
+
+
+    uint8_t const * p_tx_src;
+
+
+    uint32_t tx_src_bytes;
+
+
+    uint8_t const * p_rx_dest;
+
+
+    uint32_t rx_dest_bytes;
+
+
+    uart_cfg_t const * p_cfg;
+
+
+    R_SCI_B0_Type * p_reg;
+
+    void (* p_callback)(uart_callback_args_t *);
+    uart_callback_args_t * p_callback_memory;
+
+
+    void * p_context;
+} sci_b_uart_instance_ctrl_t;
+
+
+typedef enum e_sci_b_uart_rx_fifo_trigger
+{
+    SCI_B_UART_RX_FIFO_TRIGGER_1 = 0x1,
+    SCI_B_UART_RX_FIFO_TRIGGER_2 = 0x2,
+    SCI_B_UART_RX_FIFO_TRIGGER_3 = 0x3,
+    SCI_B_UART_RX_FIFO_TRIGGER_4 = 0x4,
+    SCI_B_UART_RX_FIFO_TRIGGER_5 = 0x5,
+    SCI_B_UART_RX_FIFO_TRIGGER_6 = 0x6,
+    SCI_B_UART_RX_FIFO_TRIGGER_7 = 0x7,
+    SCI_B_UART_RX_FIFO_TRIGGER_8 = 0x8,
+    SCI_B_UART_RX_FIFO_TRIGGER_9 = 0x9,
+    SCI_B_UART_RX_FIFO_TRIGGER_10 = 0xA,
+    SCI_B_UART_RX_FIFO_TRIGGER_11 = 0xB,
+    SCI_B_UART_RX_FIFO_TRIGGER_12 = 0xC,
+    SCI_B_UART_RX_FIFO_TRIGGER_13 = 0xD,
+    SCI_B_UART_RX_FIFO_TRIGGER_14 = 0xE,
+    SCI_B_UART_RX_FIFO_TRIGGER_MAX = 0xF,
+} sci_b_uart_rx_fifo_trigger_t;
+
+
+typedef enum e_sci_b_uart_start_bit_detect
+{
+    SCI_B_UART_START_BIT_LOW_LEVEL = 0x0,
+    SCI_B_UART_START_BIT_FALLING_EDGE = 0x1,
+} sci_b_uart_start_bit_detect_t;
+
+
+typedef enum e_sci_b_uart_noise_cancellation
+{
+    SCI_B_UART_NOISE_CANCELLATION_DISABLE = 0x0,
+    SCI_B_UART_NOISE_CANCELLATION_ENABLE = 0x1,
+} sci_b_uart_noise_cancellation_t;
+
+
+typedef enum e_sci_b_uart_rs485_enable
+{
+    SCI_B_UART_RS485_DISABLE = 0,
+    SCI_B_UART_RS485_ENABLE = 1,
+} sci_b_uart_rs485_enable_t;
+
+
+typedef enum e_sci_b_uart_rs485_de_polarity
+{
+    SCI_B_UART_RS485_DE_POLARITY_HIGH = 0,
+    SCI_B_UART_RS485_DE_POLARITY_LOW = 1,
+} sci_b_uart_rs485_de_polarity_t;
+
+
+typedef struct st_sci_b_baud_setting_t
+{
+    union
+    {
+        uint32_t baudrate_bits;
+
+        struct
+        {
+            uint32_t : 3;
+            uint32_t : 1;
+            uint32_t bgdm : 1;
+            uint32_t abcs : 1;
+            uint32_t abcse : 1;
+            uint32_t : 1;
+            uint32_t brr : 8;
+            uint32_t brme : 1;
+            uint32_t : 3;
+            uint32_t cks : 2;
+            uint32_t : 2;
+            uint32_t mddr : 8;
+        } baudrate_bits_b;
+    };
+} sci_b_baud_setting_t;
+
+
+typedef struct st_sci_b_uart_rs485_setting
+{
+    sci_b_uart_rs485_enable_t enable;
+    sci_b_uart_rs485_de_polarity_t polarity;
+    uint8_t assertion_time : 5;
+    uint8_t negation_time : 5;
+} sci_b_uart_rs485_setting_t;
+
+
+typedef struct st_sci_b_uart_extended_cfg
+{
+    sci_b_clk_src_t clock;
+    sci_b_uart_start_bit_detect_t rx_edge_start;
+    sci_b_uart_noise_cancellation_t noise_cancel;
+    sci_b_baud_setting_t * p_baud_setting;
+    sci_b_uart_rx_fifo_trigger_t rx_fifo_trigger;
+    bsp_io_port_pin_t flow_control_pin;
+    sci_b_uart_flow_control_t flow_control;
+    sci_b_uart_rs485_setting_t rs485_setting;
+    uint8_t delay_cycles;
+} sci_b_uart_extended_cfg_t;
+
+
+
+
+
+
+
+extern const uart_api_t g_uart_on_sci_b;
+
+
+
+fsp_err_t R_SCI_B_UART_Open(uart_ctrl_t * const p_api_ctrl, uart_cfg_t const * const p_cfg);
+fsp_err_t R_SCI_B_UART_Read(uart_ctrl_t * const p_api_ctrl, uint8_t * const p_dest, uint32_t const bytes);
+fsp_err_t R_SCI_B_UART_Write(uart_ctrl_t * const p_api_ctrl, uint8_t const * const p_src, uint32_t const bytes);
+fsp_err_t R_SCI_B_UART_BaudSet(uart_ctrl_t * const p_api_ctrl, void const * const p_baud_setting);
+fsp_err_t R_SCI_B_UART_InfoGet(uart_ctrl_t * const p_api_ctrl, uart_info_t * const p_info);
+fsp_err_t R_SCI_B_UART_Close(uart_ctrl_t * const p_api_ctrl);
+fsp_err_t R_SCI_B_UART_Abort(uart_ctrl_t * const p_api_ctrl, uart_dir_t communication_to_abort);
+fsp_err_t R_SCI_B_UART_BaudCalculate(uint32_t baudrate,
+                                     
+# 203 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_sci_b_uart.h" 3 4
+                                    _Bool 
+# 203 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_sci_b_uart.h"
+                                                                 bitrate_modulation,
+                                     uint32_t baud_rate_error_x_1000,
+                                     sci_b_baud_setting_t * const p_baud_setting);
+fsp_err_t R_SCI_B_UART_CallbackSet(uart_ctrl_t * const p_api_ctrl,
+                                   void ( * p_callback)(uart_callback_args_t *),
+                                   void * const p_context,
+                                   uart_callback_args_t * const p_callback_memory);
+fsp_err_t R_SCI_B_UART_ReadStop(uart_ctrl_t * const p_api_ctrl, uint32_t * remaining_bytes);
+fsp_err_t R_SCI_B_UART_ReceiveSuspend(uart_ctrl_t * const p_api_ctrl);
+fsp_err_t R_SCI_B_UART_ReceiveResume(uart_ctrl_t * const p_api_ctrl);
+
+
+
+
+
+
+
+# 9 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/hal_data.h" 2
+
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_rtc.h" 1
+# 19 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_rtc.h"
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_cfg/fsp_cfg/r_rtc_cfg.h" 1
+# 20 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_rtc.h" 2
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 1
+# 32 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/time.h" 1 3
 # 16 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/time.h" 3
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h" 1 3 4
@@ -74608,13 +73857,13 @@ struct tm *localtime_r (const time_t *restrict,
 
 # 103 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/time.h" 3
 void _tzset_r (struct _reent *);
-# 33 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 2
+# 33 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 2
 
 
 
-# 47 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 47 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
 
-# 47 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 47 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
 typedef enum e_rtc_event
 {
     RTC_EVENT_ALARM_IRQ,
@@ -74748,74 +73997,74 @@ typedef struct st_rtc_alarm_time
 {
     rtc_time_t time;
     
-# 179 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 179 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 179 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 179 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        sec_match;
     
-# 180 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 180 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 180 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 180 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        min_match;
     
-# 181 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 181 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 181 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 181 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        hour_match;
     
-# 182 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 182 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 182 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 182 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        mday_match;
     
-# 183 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 183 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 183 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 183 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        mon_match;
     
-# 184 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 184 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 184 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 184 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        year_match;
     
-# 185 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 185 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 185 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 185 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        dayofweek_match;
     
-# 186 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 186 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 186 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 186 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        sunday_match;
     
-# 187 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 187 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 187 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 187 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        monday_match;
     
-# 188 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 188 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 188 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 188 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        tuesday_match;
     
-# 189 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 189 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 189 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 189 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        wednesday_match;
     
-# 190 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 190 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 190 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 190 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        thursday_match;
     
-# 191 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 191 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 191 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 191 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        friday_match;
     
-# 192 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h" 3 4
+# 192 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h" 3 4
    _Bool 
-# 192 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 192 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
                        saturday_match;
     rtc_alarm_channel_t channel;
 } rtc_alarm_time_t;
@@ -74923,7 +74172,7 @@ typedef struct st_rtc_api
 
 
     fsp_err_t (* errorAdjustmentSet)(rtc_ctrl_t * const p_ctrl, rtc_error_adjustment_cfg_t const * const err_adj_cfg);
-# 308 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/api/r_rtc_api.h"
+# 308 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/api/r_rtc_api.h"
     fsp_err_t (* callbackSet)(rtc_ctrl_t * const p_ctrl, void (* p_callback)(rtc_callback_args_t *),
                               void * const p_context, rtc_callback_args_t * const p_callback_memory);
 
@@ -74964,11 +74213,11 @@ typedef struct st_rtc_instance
 
 
 
-# 21 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_rtc.h" 2
+# 21 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_rtc.h" 2
 
 
 
-# 37 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_rtc.h"
+# 37 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_rtc.h"
 typedef struct st_rtc_extended_cfg
 {
     uint8_t alarm1_ipl;
@@ -74981,9 +74230,9 @@ typedef struct st_rtc_ctrl
     uint32_t open;
     const rtc_cfg_t * p_cfg;
     volatile 
-# 48 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_rtc.h" 3 4
+# 48 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_rtc.h" 3 4
             _Bool 
-# 48 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra/fsp/inc/instances/r_rtc.h"
+# 48 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra/fsp/inc/instances/r_rtc.h"
                      carry_isr_triggered;
 
     void (* p_callback)(rtc_callback_args_t *);
@@ -75024,30 +74273,9 @@ fsp_err_t R_RTC_TimeCaptureGet(rtc_ctrl_t * const p_ctrl, rtc_time_capture_t * c
 
 
 
-# 15 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h" 2
+# 11 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/hal_data.h" 2
 
 
-
-extern const uart_instance_t g_uart0;
-
-
-extern sci_b_uart_instance_ctrl_t g_uart0_ctrl;
-extern const uart_cfg_t g_uart0_cfg;
-extern const sci_b_uart_extended_cfg_t g_uart0_cfg_extend;
-
-
-void mpy_uart_callback(uart_callback_args_t *p_args);
-
-
-extern const transfer_instance_t g_transfer0;
-
-
-extern dmac_instance_ctrl_t g_transfer0_ctrl;
-extern const transfer_cfg_t g_transfer0_cfg;
-# 45 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h"
-extern const spi_flash_instance_t g_ospi0;
-extern ospi_b_instance_ctrl_t g_ospi0_ctrl;
-extern const spi_flash_cfg_t g_ospi0_cfg;
 
 extern const spi_instance_t g_spi0;
 
@@ -75058,7 +74286,18 @@ extern const spi_cfg_t g_spi0_cfg;
 
 
 void mpy_spi_callback(spi_callback_args_t *p_args);
-# 73 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/ra_gen/hal_data.h"
+# 38 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/ra_gen/hal_data.h"
+extern const uart_instance_t g_uart0;
+
+
+extern sci_b_uart_instance_ctrl_t g_uart0_ctrl;
+extern const uart_cfg_t g_uart0_cfg;
+extern const sci_b_uart_extended_cfg_t g_uart0_cfg_extend;
+
+
+
+
+
 extern const rtc_instance_t g_rtc0;
 
 
@@ -75082,8 +74321,8 @@ void mpy_repl_uart_callback(uart_callback_args_t *p_args);
 void hal_entry(void);
 void g_hal_init(void);
 
-# 5 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 2
-# 1 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigboard.h" 1
+# 5 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 2
+# 1 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigboard.h" 1
 
 
 
@@ -75091,30 +74330,33 @@ void g_hal_init(void);
 
 
 
-# 1 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpy_board_cfg.h" 1
-# 12 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpy_board_cfg.h"
-# 1 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 1
-# 13 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpy_board_cfg.h" 2
-# 35 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpy_board_cfg.h"
+# 1 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpy_board_cfg.h" 1
+# 12 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpy_board_cfg.h"
+# 1 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 1
+# 13 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpy_board_cfg.h" 2
+# 36 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpy_board_cfg.h"
 extern bsp_io_port_pin_t ra_pin_table[5];
+
 
 
 extern spi_ctrl_t* ra_spi_table[1];
 extern spi_cfg_t ra_spi_cfg_table[1];
 
 
+
+
 extern uart_ctrl_t* ra_uart_table[1];
 extern uart_cfg_t ra_uart_cfg_table[1];
 
 void board_init(void);
-# 9 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigboard.h" 2
-# 6 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 2
-# 34 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h"
+# 9 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigboard.h" 2
+# 6 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 2
+# 34 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h"
 typedef long mp_off_t;
 
 
 # 1 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/arm-none-eabi/include/alloca.h" 1 3
-# 38 "D:\\Single-chip\\e2studio\\ws4\\mpy_ra8p1_CPU0\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 2
+# 38 "D:\\Single-chip\\e2studio\\ws5\\mpy_ra8p1_flat\\src\\MicroPython\\ports\\renesas-ra\\mpconfigport.h" 2
 
 
 
@@ -75151,7 +74393,7 @@ void mp_uart_repl_init(void);
 # 35 "D:/Single-chip/MySoftware/e2studiofsp6.4/toolchains/gcc_arm/13.2.rel1/lib/gcc/arm-none-eabi/13.2.1/include/limits.h" 2 3 4
 # 35 "py/mpconfig.h" 2
 # 100 "py/mpconfig.h"
-# 1 "D:/Single-chip/e2studio/ws4/mpy_ra8p1_CPU0/src/MicroPython/ports/renesas-ra/mpconfigport.h" 1
+# 1 "D:/Single-chip/e2studio/ws5/mpy_ra8p1_flat/src/MicroPython/ports/renesas-ra/mpconfigport.h" 1
 # 101 "py/mpconfig.h" 2
 # 195 "py/mpconfig.h"
 typedef intptr_t mp_int_t;
@@ -75343,8 +74585,6 @@ Q(Exception)
 Q(FileIO)
 
 Q(FileIO)
-
-Q(Flash)
 
 Q(GeneratorExit)
 
@@ -75719,6 +74959,8 @@ Q(__mod__)
 Q(__module__)
 
 Q(__mul__)
+
+Q(__name__)
 
 Q(__name__)
 
@@ -76320,6 +75562,8 @@ Q(init)
 
 Q(init)
 
+Q(init)
+
 Q(input)
 
 Q(insert)
@@ -76339,8 +75583,6 @@ Q(invert)
 Q(io)
 
 Q(io)
-
-Q(ioctl)
 
 Q(ioctl)
 
@@ -76407,6 +75649,10 @@ Q(key)
 Q(keys)
 
 Q(keys)
+
+Q(led)
+
+Q(led)
 
 Q(len)
 
@@ -76522,6 +75768,10 @@ Q(off)
 
 Q(off)
 
+Q(off)
+
+Q(on)
+
 Q(on)
 
 Q(on)
@@ -76627,8 +75877,6 @@ Q(read)
 Q(read)
 
 Q(read)
-
-Q(readblocks)
 
 Q(readblocks)
 
@@ -76953,8 +76201,6 @@ Q(write)
 Q(write)
 
 Q(write_readinto)
-
-Q(writeblocks)
 
 Q(writeblocks)
 
