@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+    <language id="org.eclipse.cdt.core.assembly" name="汇编源文件">
+      <includepath workspace_path="true">/${ProjName}/ra_gen</includepath>
+      <includepath>Debug/.</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra_cfg/fsp_cfg/bsp</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra_cfg/fsp_cfg</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra/arm/CMSIS_6/CMSIS/Core/Include</includepath>
+      <includepath workspace_path="true">/${ProjName}/src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra/fsp/inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra/fsp/inc/api</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra/fsp/inc/instances</includepath>
+    </language>
+    <language id="org.eclipse.cdt.core.gcc" name="C 源文件">
+      <includepath workspace_path="true">/${ProjName}/ra_gen</includepath>
+      <includepath>Debug/.</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra_cfg/fsp_cfg/bsp</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra_cfg/fsp_cfg</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra/arm/CMSIS_6/CMSIS/Core/Include</includepath>
+      <includepath workspace_path="true">/${ProjName}/src</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra/fsp/inc</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra/fsp/inc/api</includepath>
+      <includepath workspace_path="true">/${ProjName}/ra/fsp/inc/instances</includepath>
+      <includepath workspace_path="true">/${ProjName}/src/MicroPython</includepath>
+      <includepath workspace_path="true">/${ProjName}/src/MicroPython/ports/renesas-ra</includepath>
+      <includepath workspace_path="true">/${ProjName}/src/MicroPython/lib/tinyusb/hw</includepath>
+      <includepath workspace_path="true">/${ProjName}/src/MicroPython/lib/tinyusb/src</includepath>
+      <includepath workspace_path="true">/${ProjName}/src/MicroPython/shared/tinyusb</includepath>
+    </language>
+    <language name="目标文件"/>
+  </section>
+  <section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+    <language id="org.eclipse.cdt.core.assembly" name="汇编源文件">
+      <macro>
+        <name>_RENESAS_RA_</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>_RA_CORE</name>
+        <value>CPU0</value>
+      </macro>
+      <macro>
+        <name>_RA_ORDINAL</name>
+        <value>1</value>
+      </macro>
+    </language>
+    <language id="org.eclipse.cdt.core.gcc" name="C 源文件">
+      <macro>
+        <name>_RENESAS_RA_</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>_RA_CORE</name>
+        <value>CPU0</value>
+      </macro>
+      <macro>
+        <name>_RA_ORDINAL</name>
+        <value>1</value>
+      </macro>
+    </language>
+    <language name="目标文件"/>
+  </section>
+</cdtprojectproperties>
