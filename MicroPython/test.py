@@ -11,5 +11,5 @@ from machine import UART
 import time
 uart = UART(0, 115200)
 for i in range(8):
-    test.write(b'Hello, World!')
+    uart.write(b'Hello, World!')
     time.sleep(1)

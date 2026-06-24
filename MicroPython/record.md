@@ -9,7 +9,6 @@
 /src/MicroPython/ports/renesas-ra
 
 
-
 ## 编译器相关
 设置全局头文件 mpconfigport.h
 
