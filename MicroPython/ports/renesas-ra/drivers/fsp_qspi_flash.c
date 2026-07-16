@@ -8,7 +8,7 @@
 
 #include "stdio.h"
 
-#if 0
+
 // fsp flash设置
 
 #define OSPI_B_CS1_START_ADDRESS            (0x90000000)
@@ -143,26 +143,24 @@ fsp_err_t QSPI_Flash_WriteEnable(void)
 
 fsp_err_t QSPI_Flash_WaitForWriteEnd(void)
 {
-	uint32_t timeout = (INT32_MAX);
-	fsp_err_t err = FSP_SUCCESS;
-	spi_flash_status_t status = {0};
+    int32_t timeout = INT32_MAX;
+    fsp_err_t err = FSP_SUCCESS;
+    spi_flash_status_t status = {.write_in_progress = true};
 
-	status.write_in_progress = true;
-	while (status.write_in_progress)
-	{
-		/* Get device status */
-		R_OSPI_B_StatusGet(&RA_OSPI_FLASH_CTRL, &status);
-		if (FSP_SUCCESS != err)
-		{
-			return err;
-		}
-		if (TIME_OUT_VAL == timeout)
-		{
-			return FSP_ERR_TIMEOUT;
-		}
-		timeout--;
-	}
-	return err;
+    while (status.write_in_progress)
+    {
+        /* Get device status — MUST capture return value */
+        err = R_OSPI_B_StatusGet(&RA_OSPI_FLASH_CTRL, &status);
+        if (err != FSP_SUCCESS)
+        {
+            return err;
+        }
+        if (--timeout <= 0)
+        {
+            return FSP_ERR_TIMEOUT;
+        }
+    }
+    return FSP_SUCCESS;
 }
 
 // offset需要是扇区的开始
@@ -186,6 +184,10 @@ int32_t QSPI_Flash_Erase(uint32_t offset, uint32_t size)
 	for (uint32_t i = 0; i < sector_count; i++)
 	{
 		uint32_t sector_addr = (uint32_t)OSPI_B_APP_ADDRESS(sector_no + i);
+
+		/* WEL required before erase */
+		err = QSPI_Flash_WriteEnable();
+		if (err != FSP_SUCCESS) return -1;
 
 		/* Perform sector erase */
 		err = R_OSPI_B_Erase(&RA_OSPI_FLASH_CTRL, (uint8_t *)sector_addr, RENESAS_FLASH_SECTOR_SIZE);
@@ -218,49 +220,44 @@ int32_t QSPI_Flash_Read(long offset, uint8_t *buf, uint32_t size)
 
 int32_t QSPI_Flash_Write(long offset, const uint8_t *buf, uint32_t size)
 {
-	fsp_err_t err;
-	uint32_t addr = RENESAS_FLASH_START_ADDRESS + offset;
-	int32_t remaining = size;
-	uint8_t *p_buf = (uint8_t *)buf;
-	const uint32_t chunk_size = 4; // Fixed 4-byte write size
+    fsp_err_t err;
+    uint32_t addr = RENESAS_FLASH_START_ADDRESS + offset;
+    const uint32_t page_size = 64; /* OSPI_B page size from hal_data */
 
-	// Input validation
-	if (!buf || size == 0)
-	{
-		return -1;
-	}
+    /* Input validation */
+    if (!buf || size == 0) return -1;
+    if ((addr + size) > RENESAS_FLASH_END_ADDRESS) return -1;
 
-	if ((addr + size) > RENESAS_FLASH_END_ADDRESS)
-	{
-		return -1;
-	}
+    uint32_t remaining = size;
+    const uint8_t *p_buf = buf;
 
-	// Write data in 4-byte chunks
-	while (remaining > 0)
-	{
-		// Calculate current chunk size (up to 4 bytes or remaining bytes)
-		uint32_t current_size = (remaining >= chunk_size) ? chunk_size : remaining;
+    while (remaining > 0)
+    {
+        /* R_OSPI_B_Write non-DMAC path requires byte_count >= 8 and 8-byte aligned dest.
+         * Max per call is page_size (64) and must not cross page boundary. */
+        uint32_t page_offset = addr & (page_size - 1);
+        uint32_t chunk = page_size - page_offset;
+        if (chunk > remaining) chunk = remaining;
+        /* Round up to 8 (CPU_ACCESS_LENGTH) — R_OSPI_B_Write checks this */
+        if (chunk & 7) chunk = (chunk + 7) & ~7U;
+        if (chunk < 8) chunk = 8;
 
-		// Perform write operation
-		err = R_OSPI_B_Write(&RA_OSPI_FLASH_CTRL, p_buf, (uint8_t *)addr, current_size);
-		if (err != FSP_SUCCESS)
-		{
-			return -1;
-		}
+        /* R_OSPI_B_Write non-DMAC path writes from raw pointer as uint64_t*,
+         * so source must also be 8-byte aligned. Use local aligned buffer. */
+        uint8_t aligned_buf[64] __attribute__((aligned(8)));
+        memcpy(aligned_buf, p_buf, chunk);
 
-		// Wait for write operation to complete
-		err = QSPI_Flash_WaitForWriteEnd();
-		if (err != FSP_SUCCESS)
-		{
-			return -1;
-		}
+        err = R_OSPI_B_Write(&RA_OSPI_FLASH_CTRL, aligned_buf, (uint8_t *)addr, chunk);
+        if (err != FSP_SUCCESS) return -1;
 
-		// Update address, buffer pointer, and remaining bytes
-		addr += current_size;
-		p_buf += current_size;
-		remaining -= current_size;
-	}
+        err = QSPI_Flash_WaitForWriteEnd();
+        if (err != FSP_SUCCESS) return -1;
 
-	return 0;
+        addr      += chunk;
+        p_buf     += chunk;
+        remaining -= chunk;
+    }
+
+    return 0;
 }
-#endif
+

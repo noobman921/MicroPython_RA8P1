@@ -5,7 +5,7 @@
  *      Author: qq292
  */
 #include "fsp_spi.h"
-#if RA_SPI_NUM
+
 #define timeout 1000
 
 static volatile bool spi_transfer_done = false;
@@ -49,4 +49,3 @@ int32_t fsp_spi_transfer(spi_ctrl_t* const ctrl, size_t len, const uint8_t *src,
 	}
 	return 0;
 }
-#endif

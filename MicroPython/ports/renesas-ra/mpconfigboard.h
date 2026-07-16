@@ -22,17 +22,28 @@
 
 
 // machine设置
+
 #define MICROPY_PY_MACHINE          (1)
 #define MICROPY_PY_MACHINE_INCLUDEFILE "ports/renesas-ra/modmachine.c"
+#if RA_SPI_NUM
 #define MICROPY_PY_MACHINE_SPI      (1)	// SPI
 #define MICROPY_PY_MACHINE_SOFTSPI	(0) // SoftSPI
+#endif
 //#define MP_HAL_PIN_FMT              "%q"
+#if RA_UART_NUM // UART
 #define MICROPY_PY_MACHINE_UART		(1) // UART
 #define MICROPY_PY_MACHINE_UART_INCLUDEFILE "ports/renesas-ra/machine_uart.c"
 #define MICROPY_PY_MACHINE_UART_CLASS_CONSTANTS
-
-
+#endif
+#if RA_I2C_MASTER_NUM // I2C
+#define MICROPY_PY_MACHINE_I2C		(1)
+#define MICROPY_PY_MACHINE_SOFTI2C	(0)
+#endif
+#if RA_PWM_NUM  // PWM
+#define MICROPY_PY_MACHINE_PWM      (1)
+#define MICROPY_PY_MACHINE_PWM_INCLUDEFILE "ports/renesas-ra/machine_pwm.c"
 #define MICROPY_ENABLE_FINALISER (1)
+#endif
 
 #define MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE (0)
 
@@ -43,7 +54,7 @@
 #define MICROPY_VFS_FAT		(1)		// 选择FAT
 #define MICROPY_FATFS_RPATH (2)
 #define FFCONF_H			"lib/oofatfs/ffconf.h"
-
+#define MICROPY_FATFS_MAX_SS	(4096)
 // 外部Flash 未修改
 // External SPI Flash config
 //#if !MICROPY_HW_ENABLE_INTERNAL_FLASH_STORAGE

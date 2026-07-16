@@ -10,15 +10,14 @@
 #include "extmod/vfs_fat.h"
 
 #include "drivers/fsp_qspi_flash.h"
+
+extern const struct _mp_obj_type_t qspi_flash_type;
+
 DWORD get_fattime(void) {
     // 如果 RTC 未实现，返回固定值（如 0）
     // 格式: (year-1980)<<25 | month<<21 | day<<16 | hour<<11 | min<<5 | sec>>1
     return 0;
 }
-
-#if 0
-
-extern const struct _mp_obj_type_t qspi_flash_type;
 
 // 驱动
 DRESULT flash_disk_read(BYTE *buff, DWORD sector, UINT count){
@@ -35,12 +34,12 @@ DRESULT flash_disk_read(BYTE *buff, DWORD sector, UINT count){
 DRESULT flash_disk_write(const BYTE *buff, DWORD sector, UINT count){
 	uint32_t offset = sector * FLASH_SECTOR_SIZE;
 	size_t size = count * FLASH_SECTOR_SIZE;
-//	int ret = QSPI_Flash_Erase(offset, size);
-//	if (ret != 0) {
-//		return RES_ERROR;
-//	}
+	int ret = QSPI_Flash_Erase(offset, size);
+	if (ret != 0) {
+		return RES_ERROR;
+	}
 
-	int ret = QSPI_Flash_Write(offset, buff, size);
+	ret = QSPI_Flash_Write(offset, buff, size);
 	if (ret != 0) {
 		return RES_ERROR;
 	}
@@ -134,4 +133,3 @@ void qspi_flash_init_vfs(struct _fs_user_mount_t * vfs) {
     vfs->blockdev.u.ioctl[1] = (mp_obj_t)&qspi_flash_obj;
 }
 
-#endif

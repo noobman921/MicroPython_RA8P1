@@ -78,7 +78,36 @@ uart.readinto()
 uart.readline()
 uart.write()
 见http://micropython.com.cn/en/latet/library/machine.UART.html
+
+### I2C模块
+1. I2C(id, freq)
+构造函数
+id:int类型
+freq:int类型 频率
+2. 其他接口
+i2c.readfrom()
+i2c.readfrom_into()
+i2c.writeto()
+i2c.writevto()
+
+### PWM模块
+1. PWM(id, freq, duty_u16, duty_ns)
+构造函数
+id:int类型
+freq:int类型 频率
+duty_u16:int类型 占空比
+duty_ns:int类型 占空比
+2. pwm.init(freq, duty_u16, duty_ns)
+freq:int类型 频率
+duty_u16:int类型 占空比
+duty_ns:int类型 占空比
+3. 其他接口
+pwm.freq()
+pwm.duty_u16()
+pwm.duty_ns()
+占空比设置以最后一次为准。
 ***
+
 
 ### time模块
 1.time.sleep(seconds)

@@ -33,7 +33,7 @@
 #include "py/mperrno.h"
 #include "extmod/modmachine.h"
 #include "mphalport.h"
-#if MICROPY_PY_MACHINE_SPI
+
 typedef struct _machine_hard_spi_obj_t {
     mp_obj_base_t base;
     spi_ctrl_t* ctrl;
@@ -194,7 +194,6 @@ MP_DEFINE_CONST_OBJ_TYPE(
     protocol, &machine_hard_spi_p,
     locals_dict, &mp_machine_spi_locals_dict
     );
-#endif
 
 #endif // MICROPY_PY_MACHINE_SPI
 

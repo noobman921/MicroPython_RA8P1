@@ -146,9 +146,15 @@ Q(FileIO)
 
 Q(FileIO)
 
+Q(Flash)
+
 Q(GeneratorExit)
 
 Q(GeneratorExit)
+
+Q(I2C)
+
+Q(I2C)
 
 Q(IN)
 
@@ -237,6 +243,10 @@ Q(OverflowError)
 Q(OverflowError)
 
 Q(PTR)
+
+Q(PWM)
+
+Q(PWM)
 
 Q(Pin)
 
@@ -564,8 +574,6 @@ Q(__name__)
 
 Q(__name__)
 
-Q(__name__)
-
 Q(__ne__)
 
 Q(__neg__)
@@ -746,7 +754,11 @@ Q(abs)
 
 Q(add)
 
+Q(addr)
+
 Q(addressof)
+
+Q(addrsize)
 
 Q(all)
 
@@ -765,6 +777,8 @@ Q(append)
 Q(append)
 
 Q(appendleft)
+
+Q(arg)
 
 Q(args)
 
@@ -918,6 +932,8 @@ Q(deinit)
 
 Q(deinit)
 
+Q(deinit)
+
 Q(delattr)
 
 Q(deleter)
@@ -949,6 +965,26 @@ Q(divmod)
 Q(doc)
 
 Q(drive)
+
+Q(duty_ns)
+
+Q(duty_ns)
+
+Q(duty_ns)
+
+Q(duty_ns)
+
+Q(duty_ns)
+
+Q(duty_u16)
+
+Q(duty_u16)
+
+Q(duty_u16)
+
+Q(duty_u16)
+
+Q(duty_u16)
 
 Q(enable)
 
@@ -1015,6 +1051,18 @@ Q(flush)
 Q(flush)
 
 Q(format)
+
+Q(freq)
+
+Q(freq)
+
+Q(freq)
+
+Q(freq)
+
+Q(freq)
+
+Q(freq)
 
 Q(from_bytes)
 
@@ -1094,6 +1142,16 @@ Q(id)
 
 Q(id)
 
+Q(id)
+
+Q(id)
+
+Q(id)
+
+Q(id)
+
+Q(id)
+
 Q(idle)
 
 Q(ilistdir)
@@ -1124,6 +1182,8 @@ Q(init)
 
 Q(init)
 
+Q(init)
+
 Q(input)
 
 Q(insert)
@@ -1143,6 +1203,8 @@ Q(invert)
 Q(io)
 
 Q(io)
+
+Q(ioctl)
 
 Q(ioctl)
 
@@ -1210,10 +1272,6 @@ Q(keys)
 
 Q(keys)
 
-Q(led)
-
-Q(led)
-
 Q(len)
 
 Q(libc_ver)
@@ -1265,6 +1323,8 @@ Q(mem_alloc)
 Q(mem_free)
 
 Q(mem_info)
+
+Q(memaddr)
 
 Q(memoryview)
 
@@ -1327,10 +1387,6 @@ Q(oct)
 Q(off)
 
 Q(off)
-
-Q(off)
-
-Q(on)
 
 Q(on)
 
@@ -1440,6 +1496,18 @@ Q(read)
 
 Q(readblocks)
 
+Q(readblocks)
+
+Q(readfrom)
+
+Q(readfrom_into)
+
+Q(readfrom_mem)
+
+Q(readfrom_mem_into)
+
+Q(readinto)
+
 Q(readinto)
 
 Q(readinto)
@@ -1516,6 +1584,8 @@ Q(rsplit)
 
 Q(rstrip)
 
+Q(scan)
+
 Q(schedule)
 
 Q(sck)
@@ -1574,6 +1644,8 @@ Q(start)
 
 Q(start)
 
+Q(start)
+
 Q(startswith)
 
 Q(stat)
@@ -1603,6 +1675,8 @@ Q(stdout)
 Q(step)
 
 Q(step)
+
+Q(stop)
 
 Q(stop)
 
@@ -1760,9 +1834,19 @@ Q(write)
 
 Q(write)
 
+Q(write)
+
 Q(write_readinto)
 
 Q(writeblocks)
+
+Q(writeblocks)
+
+Q(writeto)
+
+Q(writeto_mem)
+
+Q(writevto)
 
 Q(zip)
 

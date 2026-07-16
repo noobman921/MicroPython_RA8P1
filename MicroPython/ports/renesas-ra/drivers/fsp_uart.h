@@ -8,7 +8,6 @@
 #ifndef MICROPYTHON_PORTS_RENESAS_RA_DRIVERS_FSP_UART_H_
 #define MICROPYTHON_PORTS_RENESAS_RA_DRIVERS_FSP_UART_H_
 
-#if RA_UART_NUM
 #include "mpy_board_cfg.h"
 
 int32_t fsp_uart_config(uart_ctrl_t* const ctrl, uart_cfg_t* const cfg);
@@ -19,5 +18,5 @@ uint32_t fsp_uart_rx_avail(uint8_t id);
 bool fsp_uart_tx_complete(uart_ctrl_t* const ctrl);
 uint32_t fsp_uart_read(uint8_t id, uint8_t *buffer, uint32_t len);
 uint32_t fsp_uart_write(uart_ctrl_t* const ctrl, uint8_t *buffer, uint32_t len);
-#endif
+
 #endif /* MICROPYTHON_PORTS_RENESAS_RA_DRIVERS_FSP_UART_H_ */
