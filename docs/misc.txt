@@ -1,6 +1,5 @@
 fsp.ld:
 
-
 __MP_RAM_END = RAM_START + RAM_LENGTH;
 
 _etext      = __flash_readonly$$Limit;
