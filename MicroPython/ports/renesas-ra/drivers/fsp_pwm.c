@@ -6,6 +6,8 @@
  */
 #include "fsp_pwm.h"
 
+#if RA_PWM_NUM
+
 int32_t fsp_pwm_config(timer_ctrl_t* const ctrl, timer_cfg_t* const cfg){
     fsp_err_t err = R_GPT_Open(ctrl, cfg);
 	if(err != FSP_SUCCESS){
@@ -72,3 +74,28 @@ int32_t fsp_pwm_close(timer_ctrl_t* const ctrl){
     }
     return 0;
 }
+
+#else
+
+// 缺少 FSP PWM(GPT) 依赖时的空实现
+int32_t fsp_pwm_config(void *ctrl, void *cfg){
+    return -1;
+}
+
+int32_t fsp_pwm_setFreq(void *ctrl, uint32_t freq){
+    return -1;
+}
+
+int32_t fsp_pwm_setDuty(void *ctrl, uint32_t duty){
+    return -1;
+}
+
+int32_t fsp_pwm_getPeriod(void *ctrl, uint32_t* period){
+    return -1;
+}
+
+int32_t fsp_pwm_close(void *ctrl){
+    return -1;
+}
+
+#endif

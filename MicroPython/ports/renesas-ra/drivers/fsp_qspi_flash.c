@@ -8,6 +8,8 @@
 
 #include "stdio.h"
 
+#if RA_FS_FLASH
+
 
 // fsp flash设置
 
@@ -260,4 +262,39 @@ int32_t QSPI_Flash_Write(long offset, const uint8_t *buf, uint32_t size)
 
     return 0;
 }
+
+#else
+
+// 缺少 FSP OSPI 依赖时的空实现
+fsp_err_t QSPI_Flash_Init(void)
+{
+	return FSP_ERR_UNSUPPORTED;
+}
+
+fsp_err_t QSPI_Flash_WriteEnable(void)
+{
+	return FSP_ERR_UNSUPPORTED;
+}
+
+fsp_err_t QSPI_Flash_WaitForWriteEnd(void)
+{
+	return FSP_ERR_UNSUPPORTED;
+}
+
+int32_t QSPI_Flash_Erase(uint32_t offset, uint32_t size)
+{
+	return -1;
+}
+
+int32_t QSPI_Flash_Read(long offset, uint8_t *buf, uint32_t size)
+{
+	return -1;
+}
+
+int32_t QSPI_Flash_Write(long offset, const uint8_t *buf, uint32_t size)
+{
+	return -1;
+}
+
+#endif
 

@@ -10,6 +10,8 @@
 
 #include "mpy_board_cfg.h"
 
+#if RA_FS_FLASH
+
 
 // 读写配置
 #define TIME_OUT_VAL                    (0x00)
@@ -92,5 +94,20 @@ int32_t QSPI_Flash_Write(long offset, const uint8_t *buf, uint32_t size);
 
 struct _fs_user_mount_t;
 void qspi_flash_init_vfs(struct _fs_user_mount_t *vfs);
+
+#else
+
+// 缺少 FSP OSPI 依赖时的空实现
+fsp_err_t QSPI_Flash_Init(void);
+fsp_err_t QSPI_Flash_WriteEnable(void);
+fsp_err_t QSPI_Flash_WaitForWriteEnd(void);
+int32_t QSPI_Flash_Erase(uint32_t offset, uint32_t size);
+int32_t QSPI_Flash_Read(long offset, uint8_t *buf, uint32_t size);
+int32_t QSPI_Flash_Write(long offset, const uint8_t *buf, uint32_t size);
+
+struct _fs_user_mount_t;
+void qspi_flash_init_vfs(struct _fs_user_mount_t *vfs);
+
+#endif
 
 #endif /* MICROPYTHON_PORTS_RENESAS_RA_DRIVERS_FSP_QSPI_FLASH_H_ */

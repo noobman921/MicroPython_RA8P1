@@ -6,6 +6,8 @@
  */
 #include "fsp_spi.h"
 
+#if RA_SPI_NUM
+
 #define timeout 1000
 
 static volatile bool spi_transfer_done = false;
@@ -49,3 +51,20 @@ int32_t fsp_spi_transfer(spi_ctrl_t* const ctrl, size_t len, const uint8_t *src,
 	}
 	return 0;
 }
+
+#else
+
+// 缺少 FSP SPI 依赖时的空实现
+int32_t fsp_spi_config(void *ctrl, void *cfg){
+	return -1;
+}
+
+int32_t fsp_spi_close(void *ctrl){
+	return -1;
+}
+
+int32_t fsp_spi_transfer(void *ctrl, size_t len, const uint8_t *src, uint8_t *dest, uint8_t bitwidth){
+	return -1;
+}
+
+#endif

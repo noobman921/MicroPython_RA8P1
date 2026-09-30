@@ -6,6 +6,8 @@
  */
 #include "fsp_i2c.h"
 
+#if RA_I2C_MASTER_NUM
+
 // 空实现
 void mpy_i2c_callback(i2c_master_callback_args_t *p_args){
 
@@ -69,3 +71,28 @@ int32_t fsp_i2c_close(i2c_master_ctrl_t* const ctrl){
 	}
 	return 0;
 }
+
+#else
+
+// 缺少 FSP I2C 依赖时的空实现
+int32_t fsp_i2c_config(void *ctrl, void *cfg){
+	return -1;
+}
+
+int32_t fsp_i2c_setAddress(void *ctrl, uint32_t slave_address, uint32_t mode){
+	return -1;
+}
+
+int32_t fsp_i2c_write(void *ctrl, uint8_t* buf, size_t len, bool restart){
+	return -1;
+}
+
+int32_t fsp_i2c_read(void *ctrl, uint8_t* buf, size_t len, bool restart){
+	return -1;
+}
+
+int32_t fsp_i2c_close(void *ctrl){
+	return -1;
+}
+
+#endif

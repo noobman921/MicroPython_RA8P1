@@ -1,5 +1,7 @@
 #include "fsp_uart.h"
 
+#if RA_UART_NUM
+
 // 波特率误差
 #define ERROR_MAX  (5*1000)
 
@@ -116,3 +118,39 @@ uint32_t fsp_uart_write(uart_ctrl_t* const ctrl, uint8_t *buffer, uint32_t len) 
 	}
 	return sent;
 }
+
+#else
+
+// 缺少 FSP UART 依赖时的空实现
+int32_t fsp_uart_config(void *ctrl, void *cfg){
+	return -1;
+}
+
+int32_t fsp_uart_set_baudrate(void *ctrl, uint32_t baudrate){
+	return -1;
+}
+
+int32_t fsp_uart_close(void *ctrl){
+	return -1;
+}
+
+void fsp_uart_buf_init(uint8_t id){
+}
+
+uint32_t fsp_uart_rx_avail(uint8_t id){
+	return 0;
+}
+
+bool fsp_uart_tx_complete(void *ctrl){
+	return true;
+}
+
+uint32_t fsp_uart_read(uint8_t id, uint8_t *buffer, uint32_t len){
+	return 0;
+}
+
+uint32_t fsp_uart_write(void *ctrl, uint8_t *buffer, uint32_t len){
+	return 0;
+}
+
+#endif

@@ -10,6 +10,8 @@
 
 #include "mpy_board_cfg.h"
 
+#if RA_UART_NUM
+
 int32_t fsp_uart_config(uart_ctrl_t* const ctrl, uart_cfg_t* const cfg);
 int32_t fsp_uart_set_baudrate(uart_ctrl_t* const ctrl, uint32_t baudrate);
 int32_t fsp_uart_close(uart_ctrl_t* const ctrl);
@@ -18,5 +20,19 @@ uint32_t fsp_uart_rx_avail(uint8_t id);
 bool fsp_uart_tx_complete(uart_ctrl_t* const ctrl);
 uint32_t fsp_uart_read(uint8_t id, uint8_t *buffer, uint32_t len);
 uint32_t fsp_uart_write(uart_ctrl_t* const ctrl, uint8_t *buffer, uint32_t len);
+
+#else
+
+// 缺少 FSP UART 依赖时的空实现
+int32_t fsp_uart_config(void *ctrl, void *cfg);
+int32_t fsp_uart_set_baudrate(void *ctrl, uint32_t baudrate);
+int32_t fsp_uart_close(void *ctrl);
+void fsp_uart_buf_init(uint8_t id);
+uint32_t fsp_uart_rx_avail(uint8_t id);
+bool fsp_uart_tx_complete(void *ctrl);
+uint32_t fsp_uart_read(uint8_t id, uint8_t *buffer, uint32_t len);
+uint32_t fsp_uart_write(void *ctrl, uint8_t *buffer, uint32_t len);
+
+#endif
 
 #endif /* MICROPYTHON_PORTS_RENESAS_RA_DRIVERS_FSP_UART_H_ */

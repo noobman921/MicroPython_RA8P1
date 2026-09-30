@@ -68,10 +68,8 @@ mpy_board_cfg.h:
 mpy_board_cfg.c:  
 根据配置内容在全局数组中添加对应的ctrl。在初始化函数中添加对应的cfg，以下示例为配置I2C。 
 ![alt](pic/guide7.png)
-![alt](pic/guide8.png)
+![alt](pic/guide8.png)  
 对于未被启用的模块，需要将drivers里对应的驱动排除编译或删除，对ports里的machine做同样处理。  
-drivers(fsp_rtc.c):    
-![alt](pic/guide9.png)
 ports(machine_rtc.c):  
 ![alt](pic/guide1.png)
 
