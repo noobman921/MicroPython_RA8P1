@@ -244,10 +244,6 @@ Q(OverflowError)
 
 Q(PTR)
 
-Q(PWM)
-
-Q(PWM)
-
 Q(Pin)
 
 Q(Pin)
@@ -529,6 +525,10 @@ Q(__mod__)
 Q(__module__)
 
 Q(__mul__)
+
+Q(__name__)
+
+Q(__name__)
 
 Q(__name__)
 
@@ -932,8 +932,6 @@ Q(deinit)
 
 Q(deinit)
 
-Q(deinit)
-
 Q(delattr)
 
 Q(deleter)
@@ -969,18 +967,6 @@ Q(drive)
 Q(duty_ns)
 
 Q(duty_ns)
-
-Q(duty_ns)
-
-Q(duty_ns)
-
-Q(duty_ns)
-
-Q(duty_u16)
-
-Q(duty_u16)
-
-Q(duty_u16)
 
 Q(duty_u16)
 
@@ -1051,12 +1037,6 @@ Q(flush)
 Q(flush)
 
 Q(format)
-
-Q(freq)
-
-Q(freq)
-
-Q(freq)
 
 Q(freq)
 
@@ -1148,10 +1128,6 @@ Q(id)
 
 Q(id)
 
-Q(id)
-
-Q(id)
-
 Q(idle)
 
 Q(ilistdir)
@@ -1171,6 +1147,8 @@ Q(index)
 Q(index)
 
 Q(indices)
+
+Q(init)
 
 Q(init)
 
@@ -1271,6 +1249,14 @@ Q(key)
 Q(keys)
 
 Q(keys)
+
+Q(led)
+
+Q(led)
+
+Q(led)
+
+Q(led)
 
 Q(len)
 
@@ -1387,6 +1373,14 @@ Q(oct)
 Q(off)
 
 Q(off)
+
+Q(off)
+
+Q(off)
+
+Q(on)
+
+Q(on)
 
 Q(on)
 

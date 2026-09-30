@@ -13,11 +13,7 @@
 
 extern const struct _mp_obj_type_t qspi_flash_type;
 
-DWORD get_fattime(void) {
-    // 如果 RTC 未实现，返回固定值（如 0）
-    // 格式: (year-1980)<<25 | month<<21 | day<<16 | hour<<11 | min<<5 | sec>>1
-    return 0;
-}
+extern DWORD get_fattime(void);
 
 // 驱动
 DRESULT flash_disk_read(BYTE *buff, DWORD sector, UINT count){

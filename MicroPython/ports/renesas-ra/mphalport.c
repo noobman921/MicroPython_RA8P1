@@ -29,6 +29,10 @@
 #include "py/runtime.h"
 #include "py/stream.h"
 #include "py/mphal.h"
+#include "lib/oofatfs/ff.h"
+#include "lib/oofatfs/diskio.h"
+#include "extmod/vfs_fat.h"
+
 
 uintptr_t mp_hal_stdio_poll(uintptr_t poll_flags) {
     uintptr_t ret = 0;
@@ -41,3 +45,8 @@ uintptr_t mp_hal_stdio_poll(uintptr_t poll_flags) {
 }
 
 
+DWORD get_fattime(void) {
+    // 如果 RTC 未实现，返回固定值（如 0）
+    // 格式: (year-1980)<<25 | month<<21 | day<<16 | hour<<11 | min<<5 | sec>>1
+    return 0;
+}

@@ -2,8 +2,8 @@
 #define MICROPYTHON_PORTS_RENESAS_RA_MOCONFIGBOARD_H_
 #include "hal_data.h"
 
-#define MICROPY_HW_BOARD_NAME "Titan-Mini"
-#define MICROPY_HW_MCU_NAME   "RA8P1"
+#define MICROPY_HW_BOARD_NAME "EmbedFire"
+#define MICROPY_HW_MCU_NAME   "RA6T2"
 
 #include "mpy_board_cfg.h"
 // 通用核心设置

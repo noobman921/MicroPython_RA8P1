@@ -45,6 +45,22 @@ void mp_uart_repl_init(void); //REPL初始化 uart_core.c
 
 #define MP_STATE_PORT MP_STATE_VM
 
+#if MICROPY_PY_THREAD
+#define MICROPY_EVENT_POLL_HOOK \
+    do {
+
+    } while (0);
+
+#define MICROPY_THREAD_YIELD() pyb_thread_yield()
+#else
+#define MICROPY_EVENT_POLL_HOOK \
+    do { \
+        extern void mp_handle_pending(bool); \
+        mp_handle_pending(true); \
+        __WFI(); \
+    } while (0);
+#endif
+
 // GPIO
 
 #endif

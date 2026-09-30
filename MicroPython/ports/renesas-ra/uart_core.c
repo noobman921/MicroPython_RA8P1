@@ -1,5 +1,8 @@
 #include <unistd.h>
 #include "py/mpconfig.h"
+#include "py/runtime.h"
+#include "shared/tinyusb/mp_usbd_cdc.h"
+#include "mphalport.h"
 
 typedef struct _sci_fifo {
     volatile uint32_t tail, head, len, busy;
@@ -37,35 +40,50 @@ void mp_uart_repl_init(void){
 // Receive single character
 int mp_hal_stdin_rx_chr(void) {
 	volatile sci_fifo *fifo = &repl_rx_fifo;
+	for(;;){
+	    if(fifo->len != 0){
+	        uint32_t state = __get_PRIMASK();
+            __disable_irq();
 
-	while(fifo->len == 0){
-//		return -1;
+            uint8_t c = fifo->bufp[fifo->tail];
+            fifo->tail = (fifo->tail + 1) % fifo->size;
+            fifo->len--;
+
+            __set_PRIMASK(state);
+            return (int)c;
+	    }
+        #if MICROPY_HW_USB_CDC && MICROPY_HW_TINYUSB_STACK
+        mp_usbd_cdc_poll_interfaces(0);
+        int c = ringbuf_get(&stdin_ringbuf);
+        if (c != -1) {
+            return c;
+        }
+        #endif
+        MICROPY_EVENT_POLL_HOOK;
 	}
-
-	uint32_t state = __get_PRIMASK();
-	__disable_irq();
-
-	uint8_t c = fifo->bufp[fifo->tail];
-	fifo->tail = (fifo->tail + 1) % fifo->size;
-	fifo->len--;
-
-	__set_PRIMASK(state);
-
-    return (int)c;
 }
 
 // Send string of given length
 mp_uint_t mp_hal_stdout_tx_strn(const char *str, mp_uint_t len) {
+    mp_uint_t ret = len;
 	const uint8_t *buf = (const uint8_t *)str;
-	volatile size_t sent = 0;
-	while (sent < len) {
-		R_SCI_B_UART_Write(&RA_REPL_CTRL, &buf[sent], 1);
-		sci_b_uart_instance_ctrl_t *ctrl = &RA_REPL_CTRL;
-		R_SCI_B0_Type *sci = (R_SCI_B0_Type *)ctrl->p_reg;
-		while ((sci->CSR_b.TDRE == 0) || (sci->CSR_b.TEND == 0)) {
-			// 等待硬件真正发送完成
-		}
-		sent++;
+	sci_b_uart_instance_ctrl_t *ctrl = &RA_REPL_CTRL;
+	R_SCI_B0_Type *sci = (R_SCI_B0_Type *)ctrl->p_reg;
+
+	for (mp_uint_t i = 0; i < len; i++) {
+		// 等TDRE为1，TDR寄存器为空
+		while (!(sci->CSR & R_SCI_B0_CSR_TDRE_Msk)) { }
+		// 直接写数据到TDR，硬件自动发送
+		sci->TDR = buf[i];
 	}
-	return len;
+	// 等最后一个字节完全发出
+	while (!(sci->CSR & R_SCI_B0_CSR_TEND_Msk)) { }
+
+    #if MICROPY_HW_USB_CDC && MICROPY_HW_TINYUSB_STACK
+    mp_uint_t cdc_res = mp_usbd_cdc_tx_strn(str, len);
+    if (cdc_res > 0) {
+        ret = MIN(cdc_res, ret);
+    }
+    #endif
+	return ret;
 }

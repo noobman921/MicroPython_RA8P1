@@ -7,7 +7,7 @@
 #include "fsp_i2c.h"
 
 // 空实现
-void g_iic_b_master0_callback(i2c_master_callback_args_t *p_args){
+void mpy_i2c_callback(i2c_master_callback_args_t *p_args){
 
 }
 
